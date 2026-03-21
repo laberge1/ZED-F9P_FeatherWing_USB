@@ -1,0 +1,178 @@
+(footprint "BATTCON-6.8MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Part#: MS621FE-FL11E")
+	(property "Reference" "REF**"
+		(at -1.905 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c6e5fb2-fc83-4717-b486-c163e88aae39")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "BATTCON-6.8MM"
+		(at -1.905 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f354b2b1-40a3-4a98-b774-9b41bbc63446")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a025b0ba-6984-4bd2-99ea-0f250fe2e135")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b2581a1-d0fe-48d0-9fb4-2728c59af750")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.4 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e0065ebc-8fcc-4029-8a16-2a46eb7a4981")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.4 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6a0f85dd-d252-4596-83c4-bb59cd19d9f3")
+	)
+	(fp_line
+		(start -3 -1)
+		(end -3 1)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f856409-a322-4771-97e2-65f6fd43f1fc")
+	)
+	(fp_line
+		(start -3 1)
+		(end 5.9 1)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0be6fa0a-f4fd-4f43-9e2f-7675ac6fb157")
+	)
+	(fp_line
+		(start 3.6 0.5)
+		(end 3.6 -0.5)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08d3f8fe-595e-4791-8e3b-4b5e6d7b7c84")
+	)
+	(fp_line
+		(start 3.6 0.5)
+		(end 5.9 0.5)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c05037e8-3327-43ce-abe5-9da1b3f1c801")
+	)
+	(fp_line
+		(start 5.9 -1)
+		(end -3 -1)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ba2b5f4-f723-4419-b2ed-4e9d644ab239")
+	)
+	(fp_line
+		(start 5.9 -1)
+		(end 5.9 -0.5)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "908c1dad-18af-4a6d-afec-130c42b8acda")
+	)
+	(fp_line
+		(start 5.9 -0.5)
+		(end 3.6 -0.5)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e52bc33-e332-45b9-882e-0e730ce41878")
+	)
+	(fp_line
+		(start 5.9 0.5)
+		(end 5.9 1)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68f66e1d-2414-4d2b-9996-897f0a6e3db0")
+	)
+	(pad "+" smd rect
+		(at 4.87 -0.75 180)
+		(size 2.25 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "b65c2cf6-83e0-47b4-82ea-ca89026ef49f")
+	)
+	(pad "-" smd rect
+		(at 4.87 0.75 180)
+		(size 2.25 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "c485cd2a-8ffe-4aca-b5d2-e0c8c063d884")
+	)
+	(embedded_fonts no)
+)
