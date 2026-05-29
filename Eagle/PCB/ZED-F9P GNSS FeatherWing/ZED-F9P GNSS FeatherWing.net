@@ -1,0 +1,5152 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\laberge\\Documents\\Projects\\OpenMower\\ZED-F9P_FeatherWing_USB\\Eagle\\PCB\\ZED-F9P GNSS FeatherWing\\ZED-F9P GNSS FeatherWing.kicad_sch")
+		(date "2026-05-28T16:49:19")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "ZED-F9P GNSS FeatherWing.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "B1")
+			(value "6.8MM_COIN_CELL")
+			(footprint "ZED-F9P GNSS FeatherWing:BATTCON-6.8MM")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:BATTCON-6.8MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "BATTERY-6.8MM_SMD")
+				(description "Battery - Single Cell\n\nA variety of battery chemistries, sizes, and footprints.\n\nDevice List:\n\n• 20MM_PTH -  https://www.sparkfun.com/products/783 Coin Cell Battery Holder - 20mm (PTH)\n• 20MM_PTH_KIT-  http://www.sparkfun.com/products/783 Coin Cell battery Holder - 20 mm (PTH) kit version with special mask\n• 6.8MM_PTH -  https://www.digikey.com/product-detail/en/seiko-instruments/MS621FE-FL11E/728-1057-ND/1889208?WT.srch=1&gclid=CNOQ5a6LzdQCFZS2wAodXCkE0g Coin Cell Battery Holder - 6.8MM(SMD)\n• 12MM_SMD -  https://www.sparkfun.com/products/10592 Coin Cell Battery Holder - 12mm (SMD)\n• 12MM_PTH - https://www.sparkfun.com/products/7948 Coin Cell Battery Holder - 12mm (PTH)\n• 20MM_SMD -  20mm Coin Cell Battery Holder (SMD) (2 legs)\n\n• Used on the https://www.sparkfun.com/products/11734 Big Time Watch Kit\n\n• 20MM_SMD_4LEGS -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD)\n• 20MM_SMD_4LEGS_OVERPASTE -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD) (Over-paste on the legs)\n• 24.5MM_PTH -  https://www.sparkfun.com/products/8863 Coin Cell Battery Holder - 24.5mm (PTH)\n• 9V -  9V Battery Holder - PC Mount\n\n• Used on the https://www.sparkfun.com/products/11177 SparkFun SparkPunk Sound Kit  and https://www.sparkfun.com/products/12707 SparkFun SparkPunk Sequencer Kit\n\n• 18650 -  https://www.sparkfun.com/products/13113 Battery Holder - 18650 (PTH)\n• AA -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n• AAA -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n• AA_KIT -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.\n\n• AAA_KIT -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e079d1fa-db30-46b0-8127-d3f877fd62de")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "+")
+						)
+						(pin
+							(num "-")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "10uF")
+			(footprint "ZED-F9P GNSS FeatherWing:0805-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "CAP_CERAMIC0805-NOOUTLINE")
+				(description "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d6cf200-4d4a-4a88-b1ac-5af9f01a1dbe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "ZED-F9P GNSS FeatherWing:0805-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "CAP_CERAMIC0805-NOOUTLINE")
+				(description "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f850968f-0cba-4ec2-8632-73729fc22636")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "10nF")
+			(footprint "ZED-F9P GNSS FeatherWing:0805-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "CAP_CERAMIC0805-NOOUTLINE")
+				(description "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "21a85bb5-8817-40bb-a9e6-cfd08325885b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "1.0uF")
+			(footprint "ZED-F9P GNSS FeatherWing:0603")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "1.0UF-0603-16V-10%")
+				(description "1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2428adb2-9fc7-4604-aea8-0b3172c3fcd9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CON1")
+			(value "MICROBUILDER_USBFCI_10103594_CORRECTED")
+			(footprint "ZED-F9P GNSS FeatherWing:MICROBUILDER_FCI_10103594_CORRECTED")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:MICROBUILDER_FCI_10103594_CORRECTED")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "MICROBUILDER_USBFCI_10103594_CORRECTED")
+				(description "USB Connectors\n\nUSBMINIB - Surface Mount Female Mini-B USB Connector\n\n4UConnector: 06564")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4832bdc4-014d-400d-a38a-c2c6454377af")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "VBUS")
+						)
+						(pin
+							(num "D+")
+						)
+						(pin
+							(num "D-")
+						)
+						(pin
+							(num "ID")
+						)
+						(pin
+							(num "BASE@1")
+						)
+						(pin
+							(num "BASE@2")
+						)
+						(pin
+							(num "GND")
+						)
+						(pin
+							(num "SPRT@1")
+						)
+						(pin
+							(num "SPRT@2")
+						)
+						(pin
+							(num "SPRT@3")
+						)
+						(pin
+							(num "SPRT@4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "CTS0")
+			(value "PINHD-1X1")
+			(footprint "ZED-F9P GNSS FeatherWing:1X01")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X01")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "PINHD-1X1")
+				(description "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7b9068ee-33a0-4448-b2cc-dfb03ae2da87")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "0.5A/40V/420mV")
+			(footprint "ZED-F9P GNSS FeatherWing:SOD-323")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOD-323")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "DIODE-SCHOTTKY-PMEG4005EJ")
+				(description "Schottky diode\n\nA Schottky diode is a semiconductor diode which has a low forward voltage drop and a very fast switching action.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5c5c61b6-94d9-49c5-9b53-ed51d3e2935c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A")
+						)
+						(pin
+							(num "C")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "0.5A/40V/420mV")
+			(footprint "ZED-F9P GNSS FeatherWing:SOD-323")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOD-323")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "DIODE-SCHOTTKY-PMEG4005EJ")
+				(description "Schottky diode\n\nA Schottky diode is a semiconductor diode which has a low forward voltage drop and a very fast switching action.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d2c0bcd-ed12-4484-b744-ace5a2d13ee6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A")
+						)
+						(pin
+							(num "C")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FID1")
+			(value "FIDUCIAL\"\"")
+			(footprint "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "FIDUCIAL{dblquote}{dblquote}")
+				(description "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f092869c-dc32-4f3a-809a-81b5733aaba5")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID2")
+			(value "FIDUCIAL\"\"")
+			(footprint "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "FIDUCIAL{dblquote}{dblquote}")
+				(description "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1cdd3b7b-0cd0-4ebf-a916-427df95ab12b")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "GND0")
+			(value "PINHD-1X1")
+			(footprint "ZED-F9P GNSS FeatherWing:1X01")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X01")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "PINHD-1X1")
+				(description "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "683c6d5f-f388-465b-afff-2ca7d6e98735")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "INT0")
+			(value "SOLDERJUMPERCLOSED")
+			(footprint "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "SOLDERJUMPERCLOSED")
+				(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "47b5e190-a336-4c80-a77c-2cc995599a0a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue")
+			(footprint "Coupler_v1:SMA_Molex_732511150_v3")
+			(fields
+				(field
+					(name "Footprint") "Coupler_v1:SMA_Molex_732511150_v3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "TestVehicle1_v3-cache")
+				(part "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7725bed3-f5f2-450c-b45f-488073e57f4c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP5")
+			(value "HEADER-1X2ROUND")
+			(footprint "ZED-F9P GNSS FeatherWing:1X02_ROUND")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X02_ROUND")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "HEADER-1X2ROUND")
+				(description "PIN HEADER")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "353f087b-fd22-4572-9a46-69085e8b0621")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "27nH")
+			(footprint "ZED-F9P GNSS FeatherWing:0805-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "FERRITE-0805NO")
+				(description "Ferrite Bead\n\n0603\n\n• MMZ1608B121C - 120 Ohm @ 100MHz, 600mA, 0.15 Ohm DC Resistance - Digikey: 445-2164-1-ND\n• BK1608HW121-T - 120 Ohm, 600mA Ferrite Chip - Digikey: 587-1876-2-ND\n\n0805\n\n• HZ0805B272R-10 - 2.7K Ohm @ 100MHz, 200mA, 0.8 Ohm DC Resistance - Digikey: 240-2504-1-ND (see also Murata BLM21BD272SN1L)\n• MMZ2012Y152B - 1.5K Ohm @ 100MHz, 500mA, 0.4 Ohm DC Resistance - Digikey: 445-1560-1-ND - Mainly for high frequency (80-400MHz)\n• MMZ2012R102A - 1K Ohm @ 100MHz, 500mA, 0.3 Ohm DC Resistance - Digikey: 445-1555-2-ND - More general purpose (10-200MHz)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "104605fb-f9d0-485c-bbc6-59477de882a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MS1")
+			(value "MICROBUILDER_FEATHERWINGMICROBUILDER_FEATHERWING_HOLES")
+			(footprint "ZED-F9P GNSS FeatherWing:MICROBUILDER_FEATHERWING_HOLES")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:MICROBUILDER_FEATHERWING_HOLES")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "MICROBUILDER_FEATHERWINGMICROBUILDER_FEATHERWING_HOLES")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "83dedcc9-7ff5-4c4e-a00f-04939705f0ee")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "PPS0")
+			(value "RED")
+			(footprint "ZED-F9P GNSS FeatherWing:CHIPLED_0805_NOOUTLINE")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:CHIPLED_0805_NOOUTLINE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "LED0805_NOOUTLINE")
+				(description "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7fffdf0a-ed00-4e28-a245-75d15b86bcce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A")
+						)
+						(pin
+							(num "C")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "DMG2305")
+			(footprint "ZED-F9P GNSS FeatherWing:SOT23-R")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOT23-R")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "MOSFET-P")
+				(description "P-Channel Mosfet\n\nLEGEND\n\nVDS: Voltage Drain-Source ID: Drain Current RDS(ON): Drain-Source On-State Resistance VGS(TH): Gate-Source Threshold Voltage CISS: Drain-Source Input Capacitance\n\nSOT-23   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    IRLML5103 30V 760mA 600 mOhm -- 75pF @ 25V Digikey: IRLML5103PBFCT-ND    IRLML6401 12V 4.3A 50 mOhm 950mV @ 250µA 830pF @ 10V Digikey: IRLML6401PBFTR-ND    NTR0202PL 20V 400mA 800 mOhm 2.3V @ 250uA 70pF @ 5V Digikey: NTR0202PLT1GOSTR-ND    NTR4101PT1G 20V 1.8A 85 mOhm 1.2V @ 250uA 675pF @ 10V Digikey: NTR4101PT1GOSCT-ND    DMP2004K 20V 600mA 900 mOhm 1V @ 250uA 175pF @ 16V Digikey: DMP2004KDICT-ND    PMV65XP 20V 3.9A 76 mOhm 950mV @ 1mA 725pF @ 20V Digikey: 568-2358-2-ND                       TO-252   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    AOD417 30V 25A 34 mOhm 3V @ 250µA 920pF @ 15V Digikey: 785-1106-2-ND     PowerPak   Name VDS ID RDS(ON) VGS(TH) CISS Order Number     AON7401 30V 12A 14 mOhm 3V @ 250µA 2600pF @ 15V Digikey: 785-1302-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "52cf3a84-65de-4037-adb0-e73bf5bcfecf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1K")
+			(footprint "ZED-F9P GNSS FeatherWing:0603-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "RESISTOR_0603_NOOUT")
+				(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d774858-4284-4994-bfbe-8b8bdfdca712")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "10 ohm")
+			(footprint "ZED-F9P GNSS FeatherWing:0805-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "RESISTOR0805_NOOUTLINE")
+				(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2695a04-45bd-465c-8626-67f67b07c1d2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "1K")
+			(footprint "ZED-F9P GNSS FeatherWing:0603-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "RESISTOR_0603_NOOUT")
+				(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "490f4420-218f-4d5d-9edd-79e4d39ead4b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "1K")
+			(footprint "ZED-F9P GNSS FeatherWing:0603-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "RESISTOR_0603_NOOUT")
+				(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "109354f5-3e15-4db4-8a8e-3784fca1710b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "1k")
+			(footprint "ZED-F9P GNSS FeatherWing:0603")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "1KOHM-0603-1/10W-1%")
+				(description "1kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4463da08-77e8-4b97-b579-6a8dd3366bb6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "100K")
+			(footprint "ZED-F9P GNSS FeatherWing:0603-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "RESISTOR_0603_NOOUT")
+				(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f0cafda-2c69-49cb-9e3c-82e270aa71b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "100K")
+			(footprint "ZED-F9P GNSS FeatherWing:0603-NO")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "RESISTOR_0603_NOOUT")
+				(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0920cdf5-84ac-4fc6-a5d2-81aa33919f88")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RTS0")
+			(value "PINHD-1X1")
+			(footprint "ZED-F9P GNSS FeatherWing:1X01")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X01")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "PINHD-1X1")
+				(description "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "644f1dea-1add-48fa-ad0d-1898ee1bfeeb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RX0")
+			(value "SOLDERJUMPERCLOSED")
+			(footprint "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "SOLDERJUMPERCLOSED")
+				(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "76efc078-03db-48a0-83c7-e00fed22af84")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RX2")
+			(value "PINHD-1X1")
+			(footprint "ZED-F9P GNSS FeatherWing:1X01")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X01")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "PINHD-1X1")
+				(description "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "96a6bf42-00d3-4060-8499-841145dcb71c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SCL0")
+			(value "SOLDERJUMPERCLOSED")
+			(footprint "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "SOLDERJUMPERCLOSED")
+				(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "310f621f-948a-4a87-a8df-ac84c0e76427")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SDA0")
+			(value "SOLDERJUMPERCLOSED")
+			(footprint "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "SOLDERJUMPERCLOSED")
+				(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c8f98ce-e022-4102-ad30-270013c5540f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "TESTPOINTROUND1.5MM")
+			(footprint "ZED-F9P GNSS FeatherWing:TESTPOINT_ROUND_1.5MM")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:TESTPOINT_ROUND_1.5MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "TESTPOINTROUND1.5MM")
+				(description "Test Point\n\nVarious test points for characterisation and PCB testing\n\n• TESTPOINT_SMT - Compact Surface Mount Test Point [Digikey: 5016KTR-ND]")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a7a3ac60-5697-425f-adea-f1386c465eb4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "P$1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TX0")
+			(value "SOLDERJUMPERCLOSED")
+			(footprint "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "SOLDERJUMPERCLOSED")
+				(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00352857-a707-474d-96ed-bd2707f4543a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TX2")
+			(value "PINHD-1X1")
+			(footprint "ZED-F9P GNSS FeatherWing:1X01")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X01")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "PINHD-1X1")
+				(description "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a531d80-2b73-445e-86a2-1830746c2372")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ZED-F9P_ZED-F9P")
+			(footprint "ZED-F9P GNSS FeatherWing:ZED-F9P_ZED-F9P")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:ZED-F9P_ZED-F9P")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "ZED-F9P_ZED-F9P")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9be7c74b-38ca-4b73-b5b6-6c061af87610")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "90")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "91")
+						)
+						(pin
+							(num "92")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "93")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "94")
+						)
+						(pin
+							(num "95")
+						)
+						(pin
+							(num "96")
+						)
+						(pin
+							(num "97")
+						)
+						(pin
+							(num "98")
+						)
+						(pin
+							(num "99")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "100")
+						)
+						(pin
+							(num "62")
+						)
+						(pin
+							(num "101")
+						)
+						(pin
+							(num "102")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "58")
+						)
+						(pin
+							(num "59")
+						)
+						(pin
+							(num "60")
+						)
+						(pin
+							(num "61")
+						)
+						(pin
+							(num "72")
+						)
+						(pin
+							(num "63")
+						)
+						(pin
+							(num "64")
+						)
+						(pin
+							(num "65")
+						)
+						(pin
+							(num "66")
+						)
+						(pin
+							(num "67")
+						)
+						(pin
+							(num "68")
+						)
+						(pin
+							(num "69")
+						)
+						(pin
+							(num "70")
+						)
+						(pin
+							(num "71")
+						)
+						(pin
+							(num "73")
+						)
+						(pin
+							(num "74")
+						)
+						(pin
+							(num "75")
+						)
+						(pin
+							(num "76")
+						)
+						(pin
+							(num "77")
+						)
+						(pin
+							(num "78")
+						)
+						(pin
+							(num "79")
+						)
+						(pin
+							(num "80")
+						)
+						(pin
+							(num "81")
+						)
+						(pin
+							(num "82")
+						)
+						(pin
+							(num "83")
+						)
+						(pin
+							(num "84")
+						)
+						(pin
+							(num "85")
+						)
+						(pin
+							(num "86")
+						)
+						(pin
+							(num "87")
+						)
+						(pin
+							(num "88")
+						)
+						(pin
+							(num "89")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "50")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "SPX3819-3.3")
+			(footprint "ZED-F9P GNSS FeatherWing:SOT23-5")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOT23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "VREG_SOT23-5")
+				(description "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature).")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9deacaff-5584-4887-9568-846b05cfa5dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "UNK3.3V0")
+			(value "SOLDERJUMPER")
+			(footprint "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_ARROW_NOPASTE")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_ARROW_NOPASTE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "SOLDERJUMPER")
+				(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ec7c441-052d-4e74-b9a5-aedc7017e150")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "UNK3V3")
+			(value "PINHD-1X1")
+			(footprint "ZED-F9P GNSS FeatherWing:1X01")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X01")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "PINHD-1X1")
+				(description "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a440ed4a-d6c3-4f3c-b338-5f96f4ef6872")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "X1")
+			(value "SMA-142-0711-821/826")
+			(footprint "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826_133")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826_133")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "SMA-142-0711-821/826")
+				(description "SMA 50 Ohm End Launch Jack Receptacle - Round Contact\n\nJohnson Components\nSource: www.johnsoncomponents.com .. J502-ND.pdf")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "89b48c2e-b99d-430a-ba39-d7a87f5c6cec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "G@1")
+						)
+						(pin
+							(num "G@2")
+						)
+						(pin
+							(num "G@3")
+						)
+						(pin
+							(num "G@4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Z1")
+			(value "CG0603MLC-05E")
+			(footprint "ZED-F9P GNSS FeatherWing:CT_CN0603")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:CT_CN0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "0010_BRNCG0603MLC-05E")
+				(description "CG0603MLC-05E")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7e1e2da6-e21e-432c-ba61-017dc02d7710")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Z2")
+			(value "CG0603MLC-05E")
+			(footprint "ZED-F9P GNSS FeatherWing:CT_CN0603")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:CT_CN0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "0010_BRNCG0603MLC-05E")
+				(description "CG0603MLC-05E")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ba823a54-c32e-4608-ac09-d751aee1c505")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Z3")
+			(value "CG0603MLC-05E")
+			(footprint "ZED-F9P GNSS FeatherWing:CT_CN0603")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:CT_CN0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "0010_BRNCG0603MLC-05E")
+				(description "CG0603MLC-05E")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2d8d8c91-b749-45b2-b09f-f6be3409e3bb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Z4")
+			(value "CG0603MLC-05E")
+			(footprint "ZED-F9P GNSS FeatherWing:CT_CN0603")
+			(fields
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:CT_CN0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+				(part "0010_BRNCG0603MLC-05E")
+				(description "CG0603MLC-05E")
+			)
+			(property
+				(name "Sheetname")
+				(value "ZED-F9P GNSS FeatherWing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ZED-F9P GNSS FeatherWing.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c9d1a2d-a68e-4467-bbe0-4ad6f8fcea17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "TestVehicle1_v3-cache")
+			(part "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Signal")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "0010_BRNCG0603MLC-05E")
+			(description "CG0603MLC-05E")
+			(fields
+				(field
+					(name "Reference") "Z")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:CT_CN0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CG0603MLC-05E")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "1.0UF-0603-16V-10%")
+			(description "1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "1KOHM-0603-1/10W-1%")
+			(description "1kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "BATTERY-6.8MM_SMD")
+			(description "Battery - Single Cell\n\nA variety of battery chemistries, sizes, and footprints.\n\nDevice List:\n\n• 20MM_PTH -  https://www.sparkfun.com/products/783 Coin Cell Battery Holder - 20mm (PTH)\n• 20MM_PTH_KIT-  http://www.sparkfun.com/products/783 Coin Cell battery Holder - 20 mm (PTH) kit version with special mask\n• 6.8MM_PTH -  https://www.digikey.com/product-detail/en/seiko-instruments/MS621FE-FL11E/728-1057-ND/1889208?WT.srch=1&gclid=CNOQ5a6LzdQCFZS2wAodXCkE0g Coin Cell Battery Holder - 6.8MM(SMD)\n• 12MM_SMD -  https://www.sparkfun.com/products/10592 Coin Cell Battery Holder - 12mm (SMD)\n• 12MM_PTH - https://www.sparkfun.com/products/7948 Coin Cell Battery Holder - 12mm (PTH)\n• 20MM_SMD -  20mm Coin Cell Battery Holder (SMD) (2 legs)\n\n• Used on the https://www.sparkfun.com/products/11734 Big Time Watch Kit\n\n• 20MM_SMD_4LEGS -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD)\n• 20MM_SMD_4LEGS_OVERPASTE -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD) (Over-paste on the legs)\n• 24.5MM_PTH -  https://www.sparkfun.com/products/8863 Coin Cell Battery Holder - 24.5mm (PTH)\n• 9V -  9V Battery Holder - PC Mount\n\n• Used on the https://www.sparkfun.com/products/11177 SparkFun SparkPunk Sound Kit  and https://www.sparkfun.com/products/12707 SparkFun SparkPunk Sequencer Kit\n\n• 18650 -  https://www.sparkfun.com/products/13113 Battery Holder - 18650 (PTH)\n• AA -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n• AAA -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n• AA_KIT -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.\n\n• AAA_KIT -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.")
+			(fields
+				(field
+					(name "Reference") "BT")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:BATTCON-6.8MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Battery - Single Cell\n\nA variety of battery chemistries, sizes, and footprints.\n\nDevice List:\n\n• 20MM_PTH -  https://www.sparkfun.com/products/783 Coin Cell Battery Holder - 20mm (PTH)\n• 20MM_PTH_KIT-  http://www.sparkfun.com/products/783 Coin Cell battery Holder - 20 mm (PTH) kit version with special mask\n• 6.8MM_PTH -  https://www.digikey.com/product-detail/en/seiko-instruments/MS621FE-FL11E/728-1057-ND/1889208?WT.srch=1&gclid=CNOQ5a6LzdQCFZS2wAodXCkE0g Coin Cell Battery Holder - 6.8MM(SMD)\n• 12MM_SMD -  https://www.sparkfun.com/products/10592 Coin Cell Battery Holder - 12mm (SMD)\n• 12MM_PTH - https://www.sparkfun.com/products/7948 Coin Cell Battery Holder - 12mm (PTH)\n• 20MM_SMD -  20mm Coin Cell Battery Holder (SMD) (2 legs)\n\n• Used on the https://www.sparkfun.com/products/11734 Big Time Watch Kit\n\n• 20MM_SMD_4LEGS -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD)\n• 20MM_SMD_4LEGS_OVERPASTE -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD) (Over-paste on the legs)\n• 24.5MM_PTH -  https://www.sparkfun.com/products/8863 Coin Cell Battery Holder - 24.5mm (PTH)\n• 9V -  9V Battery Holder - PC Mount\n\n• Used on the https://www.sparkfun.com/products/11177 SparkFun SparkPunk Sound Kit  and https://www.sparkfun.com/products/12707 SparkFun SparkPunk Sequencer Kit\n\n• 18650 -  https://www.sparkfun.com/products/13113 Battery Holder - 18650 (PTH)\n• AA -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n• AAA -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n• AA_KIT -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.\n\n• AAA_KIT -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.")
+			)
+			(pins
+				(pin
+					(num "+")
+					(name "+")
+					(type "power_in")
+				)
+				(pin
+					(num "-")
+					(name "-")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "CAP_CERAMIC0805-NOOUTLINE")
+			(description "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "DIODE-SCHOTTKY-PMEG4005EJ")
+			(description "Schottky diode\n\nA Schottky diode is a semiconductor diode which has a low forward voltage drop and a very fast switching action.")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOD-323")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode\n\nA Schottky diode is a semiconductor diode which has a low forward voltage drop and a very fast switching action.")
+			)
+			(pins
+				(pin
+					(num "A")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "C")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "FERRITE-0805NO")
+			(description "Ferrite Bead\n\n0603\n\n• MMZ1608B121C - 120 Ohm @ 100MHz, 600mA, 0.15 Ohm DC Resistance - Digikey: 445-2164-1-ND\n• BK1608HW121-T - 120 Ohm, 600mA Ferrite Chip - Digikey: 587-1876-2-ND\n\n0805\n\n• HZ0805B272R-10 - 2.7K Ohm @ 100MHz, 200mA, 0.8 Ohm DC Resistance - Digikey: 240-2504-1-ND (see also Murata BLM21BD272SN1L)\n• MMZ2012Y152B - 1.5K Ohm @ 100MHz, 500mA, 0.4 Ohm DC Resistance - Digikey: 445-1560-1-ND - Mainly for high frequency (80-400MHz)\n• MMZ2012R102A - 1K Ohm @ 100MHz, 500mA, 0.3 Ohm DC Resistance - Digikey: 445-1555-2-ND - More general purpose (10-200MHz)")
+			(fields
+				(field
+					(name "Reference") "FB")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ferrite Bead\n\n0603\n\n• MMZ1608B121C - 120 Ohm @ 100MHz, 600mA, 0.15 Ohm DC Resistance - Digikey: 445-2164-1-ND\n• BK1608HW121-T - 120 Ohm, 600mA Ferrite Chip - Digikey: 587-1876-2-ND\n\n0805\n\n• HZ0805B272R-10 - 2.7K Ohm @ 100MHz, 200mA, 0.8 Ohm DC Resistance - Digikey: 240-2504-1-ND (see also Murata BLM21BD272SN1L)\n• MMZ2012Y152B - 1.5K Ohm @ 100MHz, 500mA, 0.4 Ohm DC Resistance - Digikey: 445-1560-1-ND - Mainly for high frequency (80-400MHz)\n• MMZ2012R102A - 1K Ohm @ 100MHz, 500mA, 0.3 Ohm DC Resistance - Digikey: 445-1555-2-ND - More general purpose (10-200MHz)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "P$1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "P$2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "FIDUCIAL{dblquote}{dblquote}")
+			(description "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment.")
+			(fields
+				(field
+					(name "Reference") "FID")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment.")
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "HEADER-1X2ROUND")
+			(description "PIN HEADER")
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X02_ROUND")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "PIN HEADER")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "LED0805_NOOUTLINE")
+			(description "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:CHIPLED_0805_NOOUTLINE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°")
+			)
+			(pins
+				(pin
+					(num "A")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "C")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "MICROBUILDER_FEATHERWINGMICROBUILDER_FEATHERWING_HOLES")
+			(fields
+				(field
+					(name "Reference") "MS")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:MICROBUILDER_FEATHERWING_HOLES")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{RESET}")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "3V")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "AREF")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "GPIOA0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GPIOA1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GPIOA2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GPIOA3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "GPIOA4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GPIOA5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPIOSCK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GPIOMOSI")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GPIOMISO")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "GPIORX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GPIOTX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "GPIOSDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GPIOSCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "GPIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "GPIO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "GPIO11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "GPIO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "GPIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "USB")
+					(type "power_in")
+				)
+				(pin
+					(num "27")
+					(name "EN")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "VBAT")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "MICROBUILDER_USBFCI_10103594_CORRECTED")
+			(description "USB Connectors\n\nUSBMINIB - Surface Mount Female Mini-B USB Connector\n\n4UConnector: 06564")
+			(fields
+				(field
+					(name "Reference") "X")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:MICROBUILDER_FCI_10103594_CORRECTED")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "USB Connectors\n\nUSBMINIB - Surface Mount Female Mini-B USB Connector\n\n4UConnector: 06564")
+			)
+			(pins
+				(pin
+					(num "BASE@1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "BASE@2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "D+")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "D-")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "GND")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "ID")
+					(name "ID")
+					(type "bidirectional")
+				)
+				(pin
+					(num "SPRT@1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "SPRT@2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "SPRT@3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "SPRT@4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "VBUS")
+					(name "VBUS")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "MOSFET-P")
+			(description "P-Channel Mosfet\n\nLEGEND\n\nVDS: Voltage Drain-Source ID: Drain Current RDS(ON): Drain-Source On-State Resistance VGS(TH): Gate-Source Threshold Voltage CISS: Drain-Source Input Capacitance\n\nSOT-23   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    IRLML5103 30V 760mA 600 mOhm -- 75pF @ 25V Digikey: IRLML5103PBFCT-ND    IRLML6401 12V 4.3A 50 mOhm 950mV @ 250µA 830pF @ 10V Digikey: IRLML6401PBFTR-ND    NTR0202PL 20V 400mA 800 mOhm 2.3V @ 250uA 70pF @ 5V Digikey: NTR0202PLT1GOSTR-ND    NTR4101PT1G 20V 1.8A 85 mOhm 1.2V @ 250uA 675pF @ 10V Digikey: NTR4101PT1GOSCT-ND    DMP2004K 20V 600mA 900 mOhm 1V @ 250uA 175pF @ 16V Digikey: DMP2004KDICT-ND    PMV65XP 20V 3.9A 76 mOhm 950mV @ 1mA 725pF @ 20V Digikey: 568-2358-2-ND                       TO-252   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    AOD417 30V 25A 34 mOhm 3V @ 250µA 920pF @ 15V Digikey: 785-1106-2-ND     PowerPak   Name VDS ID RDS(ON) VGS(TH) CISS Order Number     AON7401 30V 12A 14 mOhm 3V @ 250µA 2600pF @ 15V Digikey: 785-1302-1-ND")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOT23-R")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "P-Channel Mosfet\n\nLEGEND\n\nVDS: Voltage Drain-Source ID: Drain Current RDS(ON): Drain-Source On-State Resistance VGS(TH): Gate-Source Threshold Voltage CISS: Drain-Source Input Capacitance\n\nSOT-23   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    IRLML5103 30V 760mA 600 mOhm -- 75pF @ 25V Digikey: IRLML5103PBFCT-ND    IRLML6401 12V 4.3A 50 mOhm 950mV @ 250µA 830pF @ 10V Digikey: IRLML6401PBFTR-ND    NTR0202PL 20V 400mA 800 mOhm 2.3V @ 250uA 70pF @ 5V Digikey: NTR0202PLT1GOSTR-ND    NTR4101PT1G 20V 1.8A 85 mOhm 1.2V @ 250uA 675pF @ 10V Digikey: NTR4101PT1GOSCT-ND    DMP2004K 20V 600mA 900 mOhm 1V @ 250uA 175pF @ 16V Digikey: DMP2004KDICT-ND    PMV65XP 20V 3.9A 76 mOhm 950mV @ 1mA 725pF @ 20V Digikey: 568-2358-2-ND                       TO-252   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    AOD417 30V 25A 34 mOhm 3V @ 250µA 920pF @ 15V Digikey: 785-1106-2-ND     PowerPak   Name VDS ID RDS(ON) VGS(TH) CISS Order Number     AON7401 30V 12A 14 mOhm 3V @ 250µA 2600pF @ 15V Digikey: 785-1302-1-ND")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "PINHD-1X1")
+			(description "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:1X01")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Pin header 1x1 for 0.1\" spacing\n\nWith round pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "RESISTOR0805_NOOUTLINE")
+			(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0805-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "RESISTOR_0603_NOOUT")
+			(description "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:0603-NO")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "SMA-142-0711-821/826")
+			(description "SMA 50 Ohm End Launch Jack Receptacle - Round Contact\n\nJohnson Components\nSource: www.johnsoncomponents.com .. J502-ND.pdf")
+			(fields
+				(field
+					(name "Reference") "X")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMA 50 Ohm End Launch Jack Receptacle - Round Contact\n\nJohnson Components\nSource: www.johnsoncomponents.com .. J502-ND.pdf")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "G@1")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "G@2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "G@3")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "G@4")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "SOLDERJUMPER")
+			(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			(fields
+				(field
+					(name "Reference") "SJ")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_ARROW_NOPASTE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "SOLDERJUMPERCLOSED")
+			(description "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			(fields
+				(field
+					(name "Reference") "SJ")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "TESTPOINTROUND1.5MM")
+			(description "Test Point\n\nVarious test points for characterisation and PCB testing\n\n• TESTPOINT_SMT - Compact Surface Mount Test Point [Digikey: 5016KTR-ND]")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:TESTPOINT_ROUND_1.5MM")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test Point\n\nVarious test points for characterisation and PCB testing\n\n• TESTPOINT_SMT - Compact Surface Mount Test Point [Digikey: 5016KTR-ND]")
+			)
+			(pins
+				(pin
+					(num "P$1")
+					(name "P$1")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "VREG_SOT23-5")
+			(description "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature).")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:SOT23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature).")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "P4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ZED-F9P GNSS FeatherWing-eagle-import")
+			(part "ZED-F9P_ZED-F9P")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ZED-F9P GNSS FeatherWing:ZED-F9P_ZED-F9P")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "RF_IN")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "ANT_DETECT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "ANT_OFF")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "~{ANT_SHORT}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "V_RF")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "GEO_STAT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "RTK_STAT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "RX2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "TX2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "VCC")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "VCC")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "V_BKCP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "V_USB")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "USB_D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "40")
+					(name "USB_D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "41")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "42")
+					(name "TX/MISO")
+					(type "bidirectional")
+				)
+				(pin
+					(num "43")
+					(name "RX/MOSI")
+					(type "bidirectional")
+				)
+				(pin
+					(num "44")
+					(name "SDA/~{CS}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "45")
+					(name "SCL/CLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "46")
+					(name "TX_READY")
+					(type "bidirectional")
+				)
+				(pin
+					(num "47")
+					(name "D_SEL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "48")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "49")
+					(name "~{RESET}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "50")
+					(name "~{SAFEBOOT}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "51")
+					(name "EXTINT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "53")
+					(name "TIMEPULSE")
+					(type "bidirectional")
+				)
+				(pin
+					(num "55")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "56")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "57")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "58")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "59")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "60")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "61")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "62")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "63")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "64")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "65")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "66")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "67")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "68")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "69")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "70")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "71")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "72")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "73")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "74")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "75")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "76")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "77")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "78")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "79")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "80")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "81")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "82")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "83")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "84")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "85")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "86")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "87")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "88")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "89")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "90")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "91")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "92")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "93")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "94")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "95")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "96")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "97")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "98")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "99")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "100")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "101")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "102")
+					(name "GND")
+					(type "bidirectional")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "TestVehicle1_v3-cache")
+			(uri "C:/Users/laberge/Documents/Projects/VNA/TestVehicle1_v3/TestVehicle1_v3/TestVehicle1_v3-cache.lib")
+		)
+		(library
+			(logical "ZED-F9P GNSS FeatherWing-eagle-import")
+			(uri "${KIPRJMOD}/ZED-F9P GNSS FeatherWing-eagle-import.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/ANT")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "P$2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "RF_IN_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "X1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/D+")
+			(class "Default")
+			(node
+				(ref "CON1")
+				(pin "D+")
+				(pinfunction "D+_D+")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "40")
+				(pinfunction "USB_D+_40")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Z1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Z3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/D-")
+			(class "Default")
+			(node
+				(ref "CON1")
+				(pin "D-")
+				(pinfunction "D-_D-")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "39")
+				(pinfunction "USB_D-_39")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Z2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Z4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/EN")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "27")
+				(pinfunction "EN_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/EXTINT")
+			(class "Default")
+			(node
+				(ref "INT0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "51")
+				(pinfunction "EXTINT_51")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/RX")
+			(class "Default")
+			(node
+				(ref "RX0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "43")
+				(pinfunction "RX/MOSI_43")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/RX2")
+			(class "Default")
+			(node
+				(ref "RX2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "RX2_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/SAFEBOOT")
+			(class "Default")
+			(node
+				(ref "TP1")
+				(pin "P$1")
+				(pinfunction "P$1_P$1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "50")
+				(pinfunction "~{SAFEBOOT}_50")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "/SCL")
+			(class "Default")
+			(node
+				(ref "JP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SCL0")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "45")
+				(pinfunction "SCL/CLK_45")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/SDA")
+			(class "Default")
+			(node
+				(ref "JP5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SDA0")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "44")
+				(pinfunction "SDA/~{CS}_44")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/TP")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "53")
+				(pinfunction "TIMEPULSE_53")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/TX")
+			(class "Default")
+			(node
+				(ref "TX0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "42")
+				(pinfunction "TX/MISO_42")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "/TX2")
+			(class "Default")
+			(node
+				(ref "TX2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "TX2_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "/VBACKUP")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "+")
+				(pinfunction "+_+")
+				(pintype "power_in")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "36")
+				(pinfunction "V_BKCP_36")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "/VCC_RF")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "V_RF_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "16")
+			(name "/~{RESET}")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "1")
+				(pinfunction "~{RESET}_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "49")
+				(pinfunction "~{RESET}_49")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "3.3V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "A")
+				(pinfunction "A_A")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "VCC_33")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "VCC_34")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "V_USB_38")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "UNK3.3V0")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "UNK3V3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "B1")
+				(pin "-")
+				(pinfunction "-_-")
+				(pintype "power_in")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "CON1")
+				(pin "BASE@1")
+				(pinfunction "GND_BASE@1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "CON1")
+				(pin "BASE@2")
+				(pinfunction "GND_BASE@2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "CON1")
+				(pin "GND")
+				(pinfunction "GND_GND")
+				(pintype "power_in")
+			)
+			(node
+				(ref "CON1")
+				(pin "SPRT@1")
+				(pinfunction "GND_SPRT@1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "CON1")
+				(pin "SPRT@2")
+				(pinfunction "GND_SPRT@2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "CON1")
+				(pin "SPRT@3")
+				(pinfunction "GND_SPRT@3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "CON1")
+				(pin "SPRT@4")
+				(pinfunction "GND_SPRT@4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "GND0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "MS1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "PPS0")
+				(pin "C")
+				(pinfunction "C_C")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "100")
+				(pinfunction "GND_100")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "101")
+				(pinfunction "GND_101")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "102")
+				(pinfunction "GND_102")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "GND_12")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "GND_14")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "GND_32")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "37")
+				(pinfunction "GND_37")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "41")
+				(pinfunction "GND_41")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "48")
+				(pinfunction "GND_48")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "55")
+				(pinfunction "GND_55")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "56")
+				(pinfunction "GND_56")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "57")
+				(pinfunction "GND_57")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "58")
+				(pinfunction "GND_58")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "59")
+				(pinfunction "GND_59")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "60")
+				(pinfunction "GND_60")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "61")
+				(pinfunction "GND_61")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "62")
+				(pinfunction "GND_62")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "63")
+				(pinfunction "GND_63")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "64")
+				(pinfunction "GND_64")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "65")
+				(pinfunction "GND_65")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "66")
+				(pinfunction "GND_66")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "67")
+				(pinfunction "GND_67")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "68")
+				(pinfunction "GND_68")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "69")
+				(pinfunction "GND_69")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "70")
+				(pinfunction "GND_70")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "71")
+				(pinfunction "GND_71")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "72")
+				(pinfunction "GND_72")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "73")
+				(pinfunction "GND_73")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "74")
+				(pinfunction "GND_74")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "75")
+				(pinfunction "GND_75")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "76")
+				(pinfunction "GND_76")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "77")
+				(pinfunction "GND_77")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "78")
+				(pinfunction "GND_78")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "79")
+				(pinfunction "GND_79")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "80")
+				(pinfunction "GND_80")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "81")
+				(pinfunction "GND_81")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "82")
+				(pinfunction "GND_82")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "83")
+				(pinfunction "GND_83")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "84")
+				(pinfunction "GND_84")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "85")
+				(pinfunction "GND_85")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "86")
+				(pinfunction "GND_86")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "87")
+				(pinfunction "GND_87")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "88")
+				(pinfunction "GND_88")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "89")
+				(pinfunction "GND_89")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "90")
+				(pinfunction "GND_90")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "91")
+				(pinfunction "GND_91")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "92")
+				(pinfunction "GND_92")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "93")
+				(pinfunction "GND_93")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "94")
+				(pinfunction "GND_94")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "95")
+				(pinfunction "GND_95")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "96")
+				(pinfunction "GND_96")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "97")
+				(pinfunction "GND_97")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "98")
+				(pinfunction "GND_98")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "99")
+				(pinfunction "GND_99")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "X1")
+				(pin "G@1")
+				(pinfunction "2_G@1")
+				(pintype "passive")
+			)
+			(node
+				(ref "X1")
+				(pin "G@2")
+				(pinfunction "2_G@2")
+				(pintype "passive")
+			)
+			(node
+				(ref "X1")
+				(pin "G@3")
+				(pinfunction "2_G@3")
+				(pintype "passive")
+			)
+			(node
+				(ref "X1")
+				(pin "G@4")
+				(pinfunction "2_G@4")
+				(pintype "passive")
+			)
+			(node
+				(ref "Z1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Z2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(D1-PadC)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "C")
+				(pinfunction "C_C")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(L1-P$1)")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "P$1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(MS1-3V)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "2")
+				(pinfunction "3V_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "UNK3.3V0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "Net-(MS1-GPIOA2)")
+			(class "Default")
+			(node
+				(ref "INT0")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "MS1")
+				(pin "7")
+				(pinfunction "GPIOA2_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(MS1-GPIORX)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "14")
+				(pinfunction "GPIORX_14")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "TX0")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(MS1-GPIOSCL)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "18")
+				(pinfunction "GPIOSCL_18")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "SCL0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(MS1-GPIOSDA)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "17")
+				(pinfunction "GPIOSDA_17")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "SDA0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(MS1-GPIOTX)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "15")
+				(pinfunction "GPIOTX_15")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "RX0")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(PPS0-PadA)")
+			(class "Default")
+			(node
+				(ref "PPS0")
+				(pin "A")
+				(pinfunction "A_A")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(Q1-S)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "C")
+				(pinfunction "C_C")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "29")
+			(name "VBAT")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "28")
+				(pinfunction "VBAT_28")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "VBUS")
+			(class "Default")
+			(node
+				(ref "CON1")
+				(pin "VBUS")
+				(pinfunction "VBUS_VBUS")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D2")
+				(pin "A")
+				(pinfunction "A_A")
+				(pintype "passive")
+			)
+			(node
+				(ref "MS1")
+				(pin "26")
+				(pinfunction "USB_26")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Z3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Z4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(CON1-PadID)")
+			(class "Default")
+			(node
+				(ref "CON1")
+				(pin "ID")
+				(pinfunction "ID_ID")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(CTS0-Pad1)")
+			(class "Default")
+			(node
+				(ref "CTS0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(J1-GND-Pad2)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(J1-Signal-Pad1)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Signal_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(MS1-AREF-Pad3)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "3")
+				(pinfunction "AREF_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(MS1-GPIO5-Pad19)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "19")
+				(pinfunction "GPIO5_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(MS1-GPIO6-Pad20)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "20")
+				(pinfunction "GPIO6_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(MS1-GPIO9-Pad21)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "21")
+				(pinfunction "GPIO9_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(MS1-GPIO10-Pad22)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "22")
+				(pinfunction "GPIO10_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(MS1-GPIO11-Pad23)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "23")
+				(pinfunction "GPIO11_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(MS1-GPIO12-Pad24)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "24")
+				(pinfunction "GPIO12_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(MS1-GPIO13-Pad25)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "25")
+				(pinfunction "GPIO13_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(MS1-GPIOA0-Pad5)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "5")
+				(pinfunction "GPIOA0_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(MS1-GPIOA1-Pad6)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "6")
+				(pinfunction "GPIOA1_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(MS1-GPIOA3-Pad8)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "8")
+				(pinfunction "GPIOA3_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(MS1-GPIOA4-Pad9)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "9")
+				(pinfunction "GPIOA4_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(MS1-GPIOA5-Pad10)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "10")
+				(pinfunction "GPIOA5_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(MS1-GPIOMISO-Pad13)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "13")
+				(pinfunction "GPIOMISO_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(MS1-GPIOMOSI-Pad12)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "12")
+				(pinfunction "GPIOMOSI_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(MS1-GPIOSCK-Pad11)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "11")
+				(pinfunction "GPIOSCK_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(MS1-NC-Pad16)")
+			(class "Default")
+			(node
+				(ref "MS1")
+				(pin "16")
+				(pinfunction "NC_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(RTS0-Pad1)")
+			(class "Default")
+			(node
+				(ref "RTS0")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(U1-ANT_DETECT-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "ANT_DETECT_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(U1-ANT_OFF-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "ANT_OFF_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(U1-D_SEL-Pad47)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "47")
+				(pinfunction "D_SEL_47")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(U1-GEO_STAT-Pad19)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "GEO_STAT_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(U1-RTK_STAT-Pad20)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "RTK_STAT_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(U1-TX_READY-Pad46)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "46")
+				(pinfunction "TX_READY_46")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(U1-~{ANT_SHORT}-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "~{ANT_SHORT}_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(U2-P4-Pad4)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "P4_4")
+				(pintype "bidirectional")
+			)
+		)
+	)
+)

@@ -1,16 +1,135 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "a924e344-78a2-4f8c-9e80-5f594fc0c031")
 	(paper "User" 298.45 217.322)
 	(lib_symbols
+		(symbol "TestVehicle1_v3-cache:Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue_1_1"
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Z"
 				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -20,6 +139,8 @@
 			)
 			(property "Value" ""
 				(at -2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -29,33 +150,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "CG0603MLC-05E"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -148,24 +277,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "1"
@@ -183,6 +294,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -190,8 +319,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 1.524 2.921 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -201,6 +334,8 @@
 			)
 			(property "Value" ""
 				(at 1.524 -2.159 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -210,33 +345,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:0603"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -333,8 +476,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -344,6 +491,8 @@
 			)
 			(property "Value" ""
 				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -353,33 +502,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:0603"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "1kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -535,21 +692,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:3.3V"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#SUPPLY"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -559,33 +722,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "3.3V Supply Symbol\n\nPower supply symbol for a specifically-stated 3.3V source."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -642,53 +813,67 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FRAME"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "FRAME\n\nDIN A4, landscape with location and doc. field"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1343,8 +1528,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "BT"
 				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -1354,6 +1543,8 @@
 			)
 			(property "Value" ""
 				(at 0 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -1363,33 +1554,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:BATTCON-6.8MM"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Battery - Single Cell\n\nA variety of battery chemistries, sizes, and footprints.\n\nDevice List:\n\n• 20MM_PTH -  https://www.sparkfun.com/products/783 Coin Cell Battery Holder - 20mm (PTH)\n• 20MM_PTH_KIT-  http://www.sparkfun.com/products/783 Coin Cell battery Holder - 20 mm (PTH) kit version with special mask\n• 6.8MM_PTH -  https://www.digikey.com/product-detail/en/seiko-instruments/MS621FE-FL11E/728-1057-ND/1889208?WT.srch=1&gclid=CNOQ5a6LzdQCFZS2wAodXCkE0g Coin Cell Battery Holder - 6.8MM(SMD)\n• 12MM_SMD -  https://www.sparkfun.com/products/10592 Coin Cell Battery Holder - 12mm (SMD)\n• 12MM_PTH - https://www.sparkfun.com/products/7948 Coin Cell Battery Holder - 12mm (PTH)\n• 20MM_SMD -  20mm Coin Cell Battery Holder (SMD) (2 legs)\n\n• Used on the https://www.sparkfun.com/products/11734 Big Time Watch Kit\n\n• 20MM_SMD_4LEGS -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD)\n• 20MM_SMD_4LEGS_OVERPASTE -  https://www.sparkfun.com/products/11892 Coin Cell Battery Holder - 20mm (SMD) (Over-paste on the legs)\n• 24.5MM_PTH -  https://www.sparkfun.com/products/8863 Coin Cell Battery Holder - 24.5mm (PTH)\n• 9V -  9V Battery Holder - PC Mount\n\n• Used on the https://www.sparkfun.com/products/11177 SparkFun SparkPunk Sound Kit  and https://www.sparkfun.com/products/12707 SparkFun SparkPunk Sequencer Kit\n\n• 18650 -  https://www.sparkfun.com/products/13113 Battery Holder - 18650 (PTH)\n• AA -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n• AAA -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n• AA_KIT -  https://www.sparkfun.com/products/7949 Battery Holder - 1xAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board.\n\n• AAA_KIT -  https://www.sparkfun.com/products/12718 Battery Holder - 1xAAA (PTH)\n\n• Special kit package - pads only have exposed copper on one side of the board."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1500,8 +1699,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -2.29 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1510,6 +1713,8 @@
 			)
 			(property "Value" ""
 				(at 2.3 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1518,33 +1723,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1641,8 +1854,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at -2.54 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -1652,6 +1869,8 @@
 			)
 			(property "Value" ""
 				(at -2.54 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -1661,33 +1880,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:SOD-323"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Schottky diode\n\nA Schottky diode is a semiconductor diode which has a low forward voltage drop and a very fast switching action."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1846,8 +2073,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FB"
 				(at -1.27 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -1857,6 +2088,8 @@
 			)
 			(property "Value" ""
 				(at -1.27 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -1866,33 +2099,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Ferrite Bead\n\n0603\n\n• MMZ1608B121C - 120 Ohm @ 100MHz, 600mA, 0.15 Ohm DC Resistance - Digikey: 445-2164-1-ND\n• BK1608HW121-T - 120 Ohm, 600mA Ferrite Chip - Digikey: 587-1876-2-ND\n\n0805\n\n• HZ0805B272R-10 - 2.7K Ohm @ 100MHz, 200mA, 0.8 Ohm DC Resistance - Digikey: 240-2504-1-ND (see also Murata BLM21BD272SN1L)\n• MMZ2012Y152B - 1.5K Ohm @ 100MHz, 500mA, 0.4 Ohm DC Resistance - Digikey: 445-1560-1-ND - Mainly for high frequency (80-400MHz)\n• MMZ2012R102A - 1K Ohm @ 100MHz, 500mA, 0.3 Ohm DC Resistance - Digikey: 445-1555-2-ND - More general purpose (10-200MHz)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1991,53 +2232,67 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FID"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2084,21 +2339,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#GND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 -0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2108,33 +2369,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2179,8 +2448,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
 				(at -6.35 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2190,6 +2463,8 @@
 			)
 			(property "Value" ""
 				(at -6.35 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2199,33 +2474,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:1X02_ROUND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "PIN HEADER"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2324,8 +2607,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at -1.27 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -2334,6 +2621,8 @@
 			)
 			(property "Value" ""
 				(at -1.27 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -2342,33 +2631,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:CHIPLED_0805_NOOUTLINE"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2575,53 +2872,67 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "MS"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:MICROBUILDER_FEATHERWING_HOLES"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2961,24 +3272,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 38.1 270)
-					(length 5.08)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 15.24 -5.08 90)
 					(length 5.08)
@@ -2997,24 +3290,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 38.1 270)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 17.78 -5.08 90)
 					(length 5.08)
@@ -3026,24 +3301,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 38.1 270)
-					(length 5.08)
-					(name "USB"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "26"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3070,24 +3327,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 38.1 270)
-					(length 5.08)
-					(name "GPIO13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 22.86 -5.08 90)
 					(length 5.08)
 					(name "GPIOA3"
@@ -3098,24 +3337,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 38.1 270)
-					(length 5.08)
-					(name "GPIO12"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3142,24 +3363,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 38.1 270)
-					(length 5.08)
-					(name "GPIO11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 27.94 -5.08 90)
 					(length 5.08)
 					(name "GPIOA5"
@@ -3170,24 +3373,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 30.48 38.1 270)
-					(length 5.08)
-					(name "GPIO10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "22"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3214,24 +3399,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 33.02 38.1 270)
-					(length 5.08)
-					(name "GPIO9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 33.02 -5.08 90)
 					(length 5.08)
 					(name "GPIOMOSI"
@@ -3242,24 +3409,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 38.1 270)
-					(length 5.08)
-					(name "GPIO6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "20"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3286,24 +3435,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 38.1 270)
-					(length 5.08)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 38.1 -5.08 90)
 					(length 5.08)
 					(name "GPIORX"
@@ -3314,6 +3445,60 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -5.08 90)
+					(length 5.08)
+					(name "GPIOTX"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -5.08 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 38.1 270)
+					(length 5.08)
+					(name "GPIOSDA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3340,16 +3525,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -5.08 90)
+					(at 38.1 38.1 270)
 					(length 5.08)
-					(name "GPIOTX"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "15"
+					(number "19"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3358,16 +3543,124 @@
 					)
 				)
 				(pin bidirectional line
-					(at 43.18 38.1 270)
+					(at 35.56 38.1 270)
 					(length 5.08)
-					(name "GPIOSDA"
+					(name "GPIO6"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "17"
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 38.1 270)
+					(length 5.08)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 38.1 270)
+					(length 5.08)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 38.1 270)
+					(length 5.08)
+					(name "GPIO11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 38.1 270)
+					(length 5.08)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 38.1 270)
+					(length 5.08)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 38.1 270)
+					(length 5.08)
+					(name "USB"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "26"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3376,16 +3669,34 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 -5.08 90)
+					(at 17.78 38.1 270)
 					(length 5.08)
-					(name "NC"
+					(name "EN"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "16"
+					(number "27"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 38.1 270)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3400,8 +3711,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "X"
 				(at -10.16 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -3411,6 +3726,8 @@
 			)
 			(property "Value" ""
 				(at -10.16 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -3420,33 +3737,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:MICROBUILDER_FCI_10103594_CORRECTED"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "USB Connectors\n\nUSBMINIB - Surface Mount Female Mini-B USB Connector\n\n4UConnector: 06564"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3764,16 +4089,34 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 5.08 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "VBUS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "VBUS"
+					(number "BASE@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "BASE@2"
 						(effects
 							(font
 								(size 0 0)
@@ -3817,60 +4160,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "ID"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "ID"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "BASE@1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "BASE@2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 10.16 -5.08 180)
 					(length 2.54)
@@ -3882,6 +4171,24 @@
 						)
 					)
 					(number "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "ID"
 						(effects
 							(font
 								(size 0 0)
@@ -3961,6 +4268,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "VBUS"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3968,8 +4293,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 2.794 0.381 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -3979,6 +4308,8 @@
 			)
 			(property "Value" ""
 				(at 2.794 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -3988,33 +4319,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:SOT23-R"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "P-Channel Mosfet\n\nLEGEND\n\nVDS: Voltage Drain-Source ID: Drain Current RDS(ON): Drain-Source On-State Resistance VGS(TH): Gate-Source Threshold Voltage CISS: Drain-Source Input Capacitance\n\nSOT-23   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    IRLML5103 30V 760mA 600 mOhm -- 75pF @ 25V Digikey: IRLML5103PBFCT-ND    IRLML6401 12V 4.3A 50 mOhm 950mV @ 250µA 830pF @ 10V Digikey: IRLML6401PBFTR-ND    NTR0202PL 20V 400mA 800 mOhm 2.3V @ 250uA 70pF @ 5V Digikey: NTR0202PLT1GOSTR-ND    NTR4101PT1G 20V 1.8A 85 mOhm 1.2V @ 250uA 675pF @ 10V Digikey: NTR4101PT1GOSCT-ND    DMP2004K 20V 600mA 900 mOhm 1V @ 250uA 175pF @ 16V Digikey: DMP2004KDICT-ND    PMV65XP 20V 3.9A 76 mOhm 950mV @ 1mA 725pF @ 20V Digikey: 568-2358-2-ND                       TO-252   Name VDS ID RDS(ON) VGS(TH) CISS Order Number    AOD417 30V 25A 34 mOhm 3V @ 250µA 920pF @ 15V Digikey: 785-1106-2-ND     PowerPak   Name VDS ID RDS(ON) VGS(TH) CISS Order Number     AON7401 30V 12A 14 mOhm 3V @ 250µA 2600pF @ 15V Digikey: 785-1302-1-ND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4372,8 +4711,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
 				(at -6.35 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -4383,6 +4726,8 @@
 			)
 			(property "Value" ""
 				(at -6.35 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -4392,33 +4737,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:1X01"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Pin header 1x1 for 0.1\" spacing\n\nWith round pins"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4499,8 +4852,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4509,6 +4866,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -4519,33 +4878,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4644,8 +5011,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4654,6 +5025,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -4664,33 +5037,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:0603-NO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4789,8 +5170,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "X"
 				(at -2.54 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -4800,6 +5185,8 @@
 			)
 			(property "Value" ""
 				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -4809,33 +5196,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SMA 50 Ohm End Launch Jack Receptacle - Round Contact\n\nJohnson Components\nSource: www.johnsoncomponents.com .. J502-ND.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5036,8 +5431,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SJ"
 				(at -2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5047,6 +5446,8 @@
 			)
 			(property "Value" ""
 				(at -2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5056,33 +5457,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_ARROW_NOPASTE"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5181,8 +5590,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SJ"
 				(at -2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5192,6 +5605,8 @@
 			)
 			(property "Value" ""
 				(at -2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5201,33 +5616,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5326,8 +5749,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 5.588 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5337,6 +5764,8 @@
 			)
 			(property "Value" ""
 				(at 1.651 5.588 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5346,33 +5775,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:TESTPOINT_ROUND_1.5MM"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Test Point\n\nVarious test points for characterisation and PCB testing\n\n• TESTPOINT_SMT - Compact Surface Mount Test Point [Digikey: 5016KTR-ND]"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5413,21 +5850,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:VBAT"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -1.524 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5437,33 +5880,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "VBAT Supply Sumbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5517,21 +5968,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:VBUS"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -1.524 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5541,33 +5998,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "VBUS Supply Symbole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5624,8 +6089,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -7.62 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5635,6 +6104,8 @@
 			)
 			(property "Value" ""
 				(at -7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -5644,33 +6115,41 @@
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:SOT23-5"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5744,24 +6223,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -10.16 -2.54 0)
 					(length 2.54)
@@ -5780,17 +6241,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 10.16 2.54 180)
+				(pin input line
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "OUT"
+					(name "EN"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -5816,6 +6277,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -5823,55 +6302,69 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -15.24 25.908 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.778 1.5113)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -15.24 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.778 1.5113)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "ZED-F9P GNSS FeatherWing:ZED-F9P_ZED-F9P"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5928,55 +6421,19 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 22.86 0)
+					(at -17.78 -22.86 0)
 					(length 2.54)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "33"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 22.86 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 20.32 0)
-					(length 2.54)
-					(name "V_BKCP"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.524 1.524)
 							)
 						)
 					)
@@ -6000,19 +6457,19 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 12.7 0)
+					(at -17.78 -22.86 0)
 					(length 2.54)
-					(name "V_RF"
+					(name "GND"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "7"
+					(number "3"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 0 0)
 							)
 						)
 					)
@@ -6072,127 +6529,19 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 0 0)
+					(at -17.78 12.7 0)
 					(length 2.54)
-					(name "V_USB"
+					(name "V_RF"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "38"
+					(number "7"
 						(effects
 							(font
 								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
-					(length 2.54)
-					(name "USB_D+"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -5.08 0)
-					(length 2.54)
-					(name "USB_D-"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -22.86 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -22.86 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "100"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -22.86 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "101"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -22.86 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "102"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -6234,19 +6583,73 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -22.86 0)
+					(at 17.78 -15.24 180)
 					(length 2.54)
-					(name "GND"
+					(name "GEO_STAT"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "3"
+					(number "19"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "RTK_STAT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "RX2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "TX2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.524 1.524)
 							)
 						)
 					)
@@ -6270,6 +6673,60 @@
 					)
 				)
 				(pin bidirectional line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 2.54)
+					(name "V_BKCP"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at -17.78 -22.86 0)
 					(length 2.54)
 					(name "GND"
@@ -6283,6 +6740,60 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "V_USB"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "USB_D-"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "USB_D+"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.524 1.524)
 							)
 						)
 					)
@@ -6306,6 +6817,114 @@
 					)
 				)
 				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "TX/MISO"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "RX/MOSI"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 2.54)
+					(name "SDA/~{CS}"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 2.54)
+					(name "SCL/CLK"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "TX_READY"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "D_SEL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at -17.78 -22.86 0)
 					(length 2.54)
 					(name "GND"
@@ -6319,6 +6938,78 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "~{SAFEBOOT}"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 2.54)
+					(name "EXTINT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "TIMEPULSE"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.524 1.524)
 							)
 						)
 					)
@@ -7134,253 +7825,55 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 22.86 180)
+					(at -17.78 -22.86 0)
 					(length 2.54)
-					(name "~{RESET}"
+					(name "GND"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "49"
+					(number "100"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 0 0)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 20.32 180)
+					(at -17.78 -22.86 0)
 					(length 2.54)
-					(name "EXTINT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "51"
+					(number "101"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 0 0)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 17.78 180)
+					(at -17.78 -22.86 0)
 					(length 2.54)
-					(name "SDA/~{CS}"
+					(name "GND"
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "44"
+					(number "102"
 						(effects
 							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 15.24 180)
-					(length 2.54)
-					(name "SCL/CLK"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 12.7 180)
-					(length 2.54)
-					(name "TX_READY"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 7.62 180)
-					(length 2.54)
-					(name "TX/MISO"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 5.08 180)
-					(length 2.54)
-					(name "RX/MOSI"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 2.54 180)
-					(length 2.54)
-					(name "D_SEL"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -2.54 180)
-					(length 2.54)
-					(name "TX2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -5.08 180)
-					(length 2.54)
-					(name "RX2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -12.7 180)
-					(length 2.54)
-					(name "RTK_STAT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 2.54)
-					(name "GEO_STAT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -17.78 180)
-					(length 2.54)
-					(name "TIMEPULSE"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -22.86 180)
-					(length 2.54)
-					(name "~{SAFEBOOT}"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.524 1.524)
+								(size 0 0)
 							)
 						)
 					)
@@ -7389,21 +7882,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -1.524 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -7413,33 +7912,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "3.3V Supply"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7493,21 +8000,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -1.524 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
@@ -7517,33 +8030,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "GND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7585,21 +8106,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:supply1_371_GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#GND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -7609,33 +8136,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SUPPLY SYMBOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7677,21 +8212,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:supply1_GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#GND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -7701,33 +8242,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SUPPLY SYMBOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9542,13 +10091,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:SOLDERJUMPERCLOSED")
 		(at 83.82 162.56 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00352857-a707-474d-96ed-bd2707f4543a")
 		(property "Reference" "TX0"
 			(at 81.28 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9558,6 +10111,8 @@
 		)
 		(property "Value" "SOLDERJUMPERCLOSED"
 			(at 87.63 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9567,29 +10122,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
 			(at 83.82 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 83.82 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 83.82 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9599,7 +10160,7 @@
 			(uuid "a11f6cda-bcbf-40d8-9c4d-23ffed21c9bf")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "TX0")
 					(unit 1)
@@ -9611,13 +10172,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR_0603_NOOUT")
 		(at 114.3 119.38 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0920cdf5-84ac-4fc6-a5d2-81aa33919f88")
 		(property "Reference" "R7"
 			(at 111.76 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,6 +10191,8 @@
 		)
 		(property "Value" "100K"
 			(at 114.3 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9636,29 +10203,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0603-NO"
 			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9668,7 +10241,7 @@
 			(uuid "13bb26e1-5ffc-4cc8-883c-c0c6d6552703")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R7")
 					(unit 1)
@@ -9680,22 +10253,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
 		(at 58.42 162.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed31397-1c89-401d-90c4-7e00212d2c45")
 		(property "Reference" "#U$8"
 			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 56.896 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9705,36 +10284,42 @@
 		)
 		(property "Footprint" ""
 			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a3cdac76-df40-4232-85a9-7972dc142f91")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$8")
 					(unit 1)
@@ -9746,22 +10331,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:VBAT")
 		(at 60.96 106.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f6c2855-afe6-4726-930c-b85a558987a1")
 		(property "Reference" "#U$16"
 			(at 60.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBAT"
 			(at 59.436 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9771,36 +10362,42 @@
 		)
 		(property "Footprint" ""
 			(at 60.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 60.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 60.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e827b739-ee4c-4a2a-8226-d5dd0c3c325b")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$16")
 					(unit 1)
@@ -9812,22 +10409,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V")
 		(at 38.1 162.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fdd7e73-e0c9-4ade-bbce-89948c8d8bc8")
 		(property "Reference" "#U$18"
 			(at 38.1 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3V"
 			(at 36.576 161.544 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9837,36 +10440,42 @@
 		)
 		(property "Footprint" ""
 			(at 38.1 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 38.1 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 38.1 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "70282648-ed30-4716-a88d-7813418ad91a")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$18")
 					(unit 1)
@@ -9878,13 +10487,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:FERRITE-0805NO")
 		(at 210.82 35.56 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "104605fb-f9d0-485c-bbc6-59477de882a2")
 		(property "Reference" "L1"
 			(at 212.09 37.465 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9894,6 +10507,8 @@
 		)
 		(property "Value" "27nH"
 			(at 212.09 32.385 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9903,29 +10518,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 			(at 210.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 210.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 210.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9935,7 +10556,7 @@
 			(uuid "2f4a654d-766c-4d79-9f41-a1f87115af8a")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "L1")
 					(unit 1)
@@ -9947,13 +10568,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR_0603_NOOUT")
 		(at 81.28 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "109354f5-3e15-4db4-8a8e-3784fca1710b")
 		(property "Reference" "R4"
 			(at 83.82 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,6 +10587,8 @@
 		)
 		(property "Value" "1K"
 			(at 81.28 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9972,29 +10599,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0603-NO"
 			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10004,7 +10637,7 @@
 			(uuid "b5f7cd57-198e-45d6-a1e4-7fcee723b7ca")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R4")
 					(unit 1)
@@ -10016,22 +10649,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
 		(at 261.62 60.96 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "190e2a89-470f-49a1-9213-a6227edf102e")
 		(property "Reference" "#U$13"
 			(at 261.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 260.096 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -10041,36 +10680,42 @@
 		)
 		(property "Footprint" ""
 			(at 261.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 261.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 261.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "bcb5a9d5-5ca3-441a-89cd-dac87d56e814")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$13")
 					(unit 1)
@@ -10082,58 +10727,70 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:FIDUCIAL{dblquote}{dblquote}")
 		(at 200.66 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cdd3b7b-0cd0-4ebf-a916-427df95ab12b")
 		(property "Reference" "FID2"
 			(at 200.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
 			(at 200.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM"
 			(at 200.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 200.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 200.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "FID2")
 					(unit 1)
@@ -10145,13 +10802,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 220.98 45.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "21a85bb5-8817-40bb-a9e6-cfd08325885b")
 		(property "Reference" "C3"
 			(at 218.69 44.47 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,6 +10821,8 @@
 		)
 		(property "Value" "10nF"
 			(at 223.28 44.47 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,29 +10831,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 			(at 220.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 220.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 220.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10200,7 +10869,7 @@
 			(uuid "fe54fc11-b406-40bb-8587-66df5d441416")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "C3")
 					(unit 1)
@@ -10212,22 +10881,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:GND")
 		(at 144.78 185.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "22a909d9-56aa-41c4-a3b6-3202e5179396")
 		(property "Reference" "#GND10"
 			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 144.78 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10237,36 +10912,42 @@
 		)
 		(property "Footprint" ""
 			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 144.78 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "8469c87c-0fd9-4796-ab2f-30e9d5c61fb4")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#GND10")
 					(unit 1)
@@ -10278,22 +10959,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:3.3V")
 		(at 129.54 144.78 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "23ade094-52dc-42ec-a666-5fc4c7901b6d")
 		(property "Reference" "#SUPPLY5"
 			(at 129.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3V"
 			(at 129.54 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10303,36 +10990,42 @@
 		)
 		(property "Footprint" ""
 			(at 129.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 129.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 129.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "94645c3c-7865-455d-9a34-48075f0b5b86")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#SUPPLY5")
 					(unit 1)
@@ -10345,13 +11038,17 @@
 		(at 144.78 175.26 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2428adb2-9fc7-4604-aea8-0b3172c3fcd9")
 		(property "Reference" "C4"
 			(at 143.256 172.339 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -10361,6 +11058,8 @@
 		)
 		(property "Value" "1.0uF"
 			(at 143.256 177.419 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -10370,29 +11069,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0603"
 			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10402,7 +11107,7 @@
 			(uuid "c735002f-2c34-497b-97f4-5fda24a81102")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "C4")
 					(unit 1)
@@ -10414,22 +11119,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:supply1_GND")
 		(at 180.34 40.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a4f1c4d-5cc6-497c-ada3-acfc9585076e")
 		(property "Reference" "#GND1"
 			(at 180.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 177.8 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10439,36 +11150,42 @@
 		)
 		(property "Footprint" ""
 			(at 180.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 180.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 180.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5d53bae8-5ea8-499a-887b-bcab15a2b655")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#GND1")
 					(unit 1)
@@ -10480,13 +11197,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:PINHD-1X1")
 		(at 170.18 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a531d80-2b73-445e-86a2-1830746c2372")
 		(property "Reference" "TX2"
 			(at 163.83 75.565 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10496,6 +11217,8 @@
 		)
 		(property "Value" "PINHD-1X1"
 			(at 163.83 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10505,36 +11228,42 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:1X01"
 			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "da512917-7a73-4b89-8dc7-c4f637ccc0f6")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "TX2")
 					(unit 1)
@@ -10546,22 +11275,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
 		(at 142.24 124.46 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cac7946-e85e-4bc1-b9eb-c877a4ae016d")
 		(property "Reference" "#U$30"
 			(at 142.24 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 140.716 127 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -10571,36 +11306,42 @@
 		)
 		(property "Footprint" ""
 			(at 142.24 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 142.24 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 142.24 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "66c28e4a-f5c3-433c-a0dc-463dbb151506")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$30")
 					(unit 1)
@@ -10612,13 +11353,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
 		(at 238.76 139.7 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d8d8c91-b749-45b2-b09f-f6be3409e3bb")
 		(property "Reference" "Z3"
 			(at 236.22 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10628,39 +11373,47 @@
 		)
 		(property "Value" "CG0603MLC-05E"
 			(at 245.11 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
 			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10670,7 +11423,7 @@
 			(uuid "b8e8e49a-7b33-4f4e-b30c-1fbbcf0a04ac")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "Z3")
 					(unit 1)
@@ -10682,13 +11435,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:SOLDERJUMPERCLOSED")
 		(at 86.36 104.14 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "310f621f-948a-4a87-a8df-ac84c0e76427")
 		(property "Reference" "SCL0"
 			(at 83.82 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -10698,6 +11455,8 @@
 		)
 		(property "Value" "SOLDERJUMPERCLOSED"
 			(at 90.17 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -10707,29 +11466,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
 			(at 86.36 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 86.36 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 86.36 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10739,7 +11504,7 @@
 			(uuid "4608d03c-5198-41ed-bf82-d5ba4c527840")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "SCL0")
 					(unit 1)
@@ -10751,13 +11516,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:HEADER-1X2ROUND")
 		(at 66.04 93.98 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "353f087b-fd22-4572-9a46-69085e8b0621")
 		(property "Reference" "JP5"
 			(at 72.39 99.695 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10767,6 +11536,8 @@
 		)
 		(property "Value" "HEADER-1X2ROUND"
 			(at 72.39 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10776,29 +11547,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:1X02_ROUND"
 			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10808,7 +11585,7 @@
 			(uuid "69a75936-0eee-4e87-a67b-6c640f0a1928")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "JP5")
 					(unit 1)
@@ -10820,22 +11597,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V")
 		(at 200.66 63.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b4954cc-81ae-4443-864c-1be7d5bac4f6")
 		(property "Reference" "#U$4"
 			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3V"
 			(at 199.136 62.484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -10845,36 +11628,42 @@
 		)
 		(property "Footprint" ""
 			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "56afbd03-d625-4dd0-810c-3a43514ae213")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$4")
 					(unit 1)
@@ -10886,13 +11675,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:DIODE-SCHOTTKY-PMEG4005EJ")
 		(at 119.38 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d2c0bcd-ed12-4484-b744-ace5a2d13ee6")
 		(property "Reference" "D2"
 			(at 118.11 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -10902,39 +11695,47 @@
 		)
 		(property "Value" "0.5A/40V/420mV"
 			(at 116.84 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOD-323"
 			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A"
@@ -10944,7 +11745,7 @@
 			(uuid "b7c379cc-1c95-442c-9d85-1faf552a1966")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "D2")
 					(unit 1)
@@ -10956,13 +11757,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 177.8 116.84 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d6cf200-4d4a-4a88-b1ac-5af9f01a1dbe")
 		(property "Reference" "C1"
 			(at 175.51 115.59 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10971,6 +11776,8 @@
 		)
 		(property "Value" "10uF"
 			(at 180.1 115.59 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,29 +11786,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 			(at 177.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 177.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11011,7 +11824,7 @@
 			(uuid "842d1eef-e57c-4df6-b063-19cd542ef3c7")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "C1")
 					(unit 1)
@@ -11023,13 +11836,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR_0603_NOOUT")
 		(at 261.62 40.64 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d774858-4284-4994-bfbe-8b8bdfdca712")
 		(property "Reference" "R1"
 			(at 264.16 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,6 +11855,8 @@
 		)
 		(property "Value" "1K"
 			(at 261.62 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11048,29 +11867,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0603-NO"
 			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11080,7 +11905,7 @@
 			(uuid "8a02e6a1-81a8-4270-bae7-cc3be469ca15")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R1")
 					(unit 1)
@@ -11092,13 +11917,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:1KOHM-0603-1/10W-1%")
 		(at 129.54 160.02 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4463da08-77e8-4b97-b579-6a8dd3366bb6")
 		(property "Reference" "R5"
 			(at 128.016 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -11108,6 +11937,8 @@
 		)
 		(property "Value" "1k"
 			(at 131.064 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -11117,29 +11948,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0603"
 			(at 129.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 129.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 129.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11149,7 +11986,7 @@
 			(uuid "359168ad-458b-4496-a727-8893eff6ef7a")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R5")
 					(unit 1)
@@ -11161,22 +11998,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:VBUS")
 		(at 66.04 106.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4619eb54-a3f3-43b0-8c11-2df7497d9fc4")
 		(property "Reference" "#U$7"
 			(at 66.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 64.516 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11186,36 +12029,42 @@
 		)
 		(property "Footprint" ""
 			(at 66.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 66.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 66.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "bd05f2e4-bead-4ef4-81e3-d118e0b920f9")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$7")
 					(unit 1)
@@ -11227,13 +12076,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:SOLDERJUMPERCLOSED")
 		(at 66.04 165.1 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "47b5e190-a336-4c80-a77c-2cc995599a0a")
 		(property "Reference" "INT0"
 			(at 63.5 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11243,6 +12096,8 @@
 		)
 		(property "Value" "SOLDERJUMPERCLOSED"
 			(at 69.85 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11252,29 +12107,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
 			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11284,7 +12145,7 @@
 			(uuid "d44ea401-3596-40d7-aa62-1c4eb488acfc")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "INT0")
 					(unit 1)
@@ -11296,13 +12157,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:MICROBUILDER_USBFCI_10103594_CORRECTED")
 		(at 218.44 149.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4832bdc4-014d-400d-a38a-c2c6454377af")
 		(property "Reference" "CON1"
 			(at 208.28 141.224 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11312,6 +12177,8 @@
 		)
 		(property "Value" "MICROBUILDER_USBFCI_10103594_CORRECTED"
 			(at 208.28 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11321,29 +12188,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:MICROBUILDER_FCI_10103594_CORRECTED"
 			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "VBUS"
@@ -11380,7 +12253,7 @@
 			(uuid "e866f9e5-49b0-4988-80cf-ad9404267715")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "CON1")
 					(unit 1)
@@ -11392,13 +12265,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR_0603_NOOUT")
 		(at 76.2 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "490f4420-218f-4d5d-9edd-79e4d39ead4b")
 		(property "Reference" "R3"
 			(at 78.74 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,6 +12284,8 @@
 		)
 		(property "Value" "1K"
 			(at 76.2 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11417,29 +12296,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0603-NO"
 			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11449,7 +12334,7 @@
 			(uuid "a0f42b37-d124-4f40-bd87-546d53410dcf")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R3")
 					(unit 1)
@@ -11462,13 +12347,17 @@
 		(at 88.9 104.14 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c8f98ce-e022-4102-ad30-270013c5540f")
 		(property "Reference" "SDA0"
 			(at 91.44 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11478,6 +12367,8 @@
 		)
 		(property "Value" "SOLDERJUMPERCLOSED"
 			(at 85.09 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11487,29 +12378,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
 			(at 88.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 88.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 88.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11519,7 +12416,7 @@
 			(uuid "5107afe1-1cb7-45ef-a052-acdde4b69330")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "SDA0")
 					(unit 1)
@@ -11531,13 +12428,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
 		(at 246.38 139.7 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c9d1a2d-a68e-4467-bbe0-4ad6f8fcea17")
 		(property "Reference" "Z4"
 			(at 243.84 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11547,39 +12448,47 @@
 		)
 		(property "Value" "CG0603MLC-05E"
 			(at 252.73 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
 			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11589,7 +12498,7 @@
 			(uuid "ffca91c4-8fea-4d75-a25d-d0524fa43c3f")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "Z4")
 					(unit 1)
@@ -11602,13 +12511,17 @@
 		(at 124.46 104.14 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "52cf3a84-65de-4037-adb0-e73bf5bcfecf")
 		(property "Reference" "Q1"
 			(at 127.254 104.521 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11618,6 +12531,8 @@
 		)
 		(property "Value" "DMG2305"
 			(at 127.254 102.235 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11627,29 +12542,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOT23-R"
 			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11662,7 +12583,7 @@
 			(uuid "867bd834-fa2c-4b57-b876-8d669eb9db2c")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "Q1")
 					(unit 1)
@@ -11674,22 +12595,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V")
 		(at 177.8 106.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5819d692-f4ab-4c32-ac02-ef0701cceb24")
 		(property "Reference" "#U$3"
 			(at 177.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3V"
 			(at 176.276 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11699,36 +12626,42 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 177.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e4287044-9f08-47ae-bcc8-ed26571a4859")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$3")
 					(unit 1)
@@ -11740,13 +12673,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:DIODE-SCHOTTKY-PMEG4005EJ")
 		(at 129.54 149.86 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c5c61b6-94d9-49c5-9b53-ed51d3e2935c")
 		(property "Reference" "D1"
 			(at 132.08 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -11756,6 +12693,8 @@
 		)
 		(property "Value" "0.5A/40V/420mV"
 			(at 132.08 149.352 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -11765,29 +12704,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOD-323"
 			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "C"
@@ -11797,7 +12742,7 @@
 			(uuid "834be79f-2641-48be-bfba-70af66673e36")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "D1")
 					(unit 1)
@@ -11809,58 +12754,70 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:A4L-LOC")
 		(at 17.78 198.12 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f6a6ac4-6952-44cc-bd4d-3c7a50048b27")
 		(property "Reference" "#FRAME1"
 			(at 17.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "A4L-LOC"
 			(at 17.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 17.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 17.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 17.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#FRAME1")
 					(unit 1)
@@ -11872,22 +12829,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
 		(at 220.98 55.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6122047f-fd73-4efb-a8e9-5d3b732b4164")
 		(property "Reference" "#U$19"
 			(at 220.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 219.456 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11897,36 +12860,42 @@
 		)
 		(property "Footprint" ""
 			(at 220.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 220.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 220.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a2b9b323-fcbf-4712-8269-bd8faf177504")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$19")
 					(unit 1)
@@ -11938,13 +12907,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:PINHD-1X1")
 		(at 170.18 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "644f1dea-1add-48fa-ad0d-1898ee1bfeeb")
 		(property "Reference" "RTS0"
 			(at 163.83 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11954,6 +12927,8 @@
 		)
 		(property "Value" "PINHD-1X1"
 			(at 163.83 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11963,36 +12938,42 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:1X01"
 			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "23cdd5b3-0908-4b35-a2fb-09eeafbaada6")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "RTS0")
 					(unit 1)
@@ -12004,13 +12985,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:PINHD-1X1")
 		(at 170.18 38.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "683c6d5f-f388-465b-afff-2ca7d6e98735")
 		(property "Reference" "GND0"
 			(at 163.83 34.925 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12020,6 +13005,8 @@
 		)
 		(property "Value" "PINHD-1X1"
 			(at 163.83 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12029,36 +13016,42 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:1X01"
 			(at 170.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 170.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ab42b2af-b820-465c-8cd3-80a87f90b8c8")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "GND0")
 					(unit 1)
@@ -12070,22 +13063,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:VBUS")
 		(at 231.14 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "70b9e688-8782-43d7-9c0a-6d4846b45fa7")
 		(property "Reference" "#U$45"
 			(at 231.14 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 229.616 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12095,36 +13094,42 @@
 		)
 		(property "Footprint" ""
 			(at 231.14 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 231.14 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 231.14 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5fde76fe-9fdb-4f66-9484-9fead8a9fefe")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$45")
 					(unit 1)
@@ -12137,13 +13142,17 @@
 		(at 86.36 162.56 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "76efc078-03db-48a0-83c7-e00fed22af84")
 		(property "Reference" "RX0"
 			(at 88.9 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12153,6 +13162,8 @@
 		)
 		(property "Value" "SOLDERJUMPERCLOSED"
 			(at 82.55 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12162,29 +13173,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
 			(at 86.36 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 86.36 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 86.36 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12194,9 +13211,91 @@
 			(uuid "4f3d0c86-c054-4af3-8710-eb641e4134e7")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "RX0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestVehicle1_v3-cache:Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue")
+		(at 187.96 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7725bed3-f5f2-450c-b45f-488073e57f4c")
+		(property "Reference" "J1"
+			(at 194.31 26.0349 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue"
+			(at 194.31 28.5749 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Coupler_v1:SMA_Molex_732511150_v3"
+			(at 187.96 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3614093e-7cea-4225-9695-c433424e722d")
+		)
+		(pin "2"
+			(uuid "63989eec-eb7b-4f21-b0c0-ba7cf241887f")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12206,22 +13305,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:GND")
 		(at 129.54 185.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "79e4fe00-8850-4598-b6c1-f777d41f36cf")
 		(property "Reference" "#GND5"
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 129.54 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12231,36 +13336,42 @@
 		)
 		(property "Footprint" ""
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "d2f2ab38-5237-418b-a966-b234959188a1")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#GND5")
 					(unit 1)
@@ -12272,22 +13383,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
 		(at 114.3 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b1dcc33-6f5f-4d93-a618-289c569ff6ec")
 		(property "Reference" "#U$25"
 			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 112.776 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12297,36 +13414,42 @@
 		)
 		(property "Footprint" ""
 			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 114.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3af5e232-f5df-402a-ab6f-9b269d4d300f")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$25")
 					(unit 1)
@@ -12338,13 +13461,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:PINHD-1X1")
 		(at 170.18 48.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b9068ee-33a0-4448-b2cc-dfb03ae2da87")
 		(property "Reference" "CTS0"
 			(at 163.83 45.085 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12354,6 +13481,8 @@
 		)
 		(property "Value" "PINHD-1X1"
 			(at 163.83 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12363,36 +13492,42 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:1X01"
 			(at 170.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 170.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0aa96c22-4e0f-4917-a655-0183f2ed0e2f")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "CTS0")
 					(unit 1)
@@ -12404,13 +13539,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
 		(at 238.76 157.48 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e1e2da6-e21e-432c-ba61-017dc02d7710")
 		(property "Reference" "Z1"
 			(at 236.22 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12420,39 +13559,47 @@
 		)
 		(property "Value" "CG0603MLC-05E"
 			(at 245.11 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
 			(at 238.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 238.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 238.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12462,7 +13609,7 @@
 			(uuid "e5b797be-368e-4998-a7fd-a3861ec84d96")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "Z1")
 					(unit 1)
@@ -12474,13 +13621,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:LED0805_NOOUTLINE")
 		(at 261.62 53.34 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fffdf0a-ed00-4e28-a245-75d15b86bcce")
 		(property "Reference" "PPS0"
 			(at 266.065 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12489,6 +13640,8 @@
 		)
 		(property "Value" "RED"
 			(at 258.826 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12497,29 +13650,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:CHIPLED_0805_NOOUTLINE"
 			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "C"
@@ -12529,7 +13688,7 @@
 			(uuid "a62881de-9847-4b20-a26c-7c550ae60d23")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "PPS0")
 					(unit 1)
@@ -12541,54 +13700,66 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:MICROBUILDER_FEATHERWINGMICROBUILDER_FEATHERWING_HOLES")
 		(at 45.72 149.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "83dedcc9-7ff5-4c4e-a00f-04939705f0ee")
 		(property "Reference" "MS1"
 			(at 45.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "MICROBUILDER_FEATHERWINGMICROBUILDER_FEATHERWING_HOLES"
 			(at 45.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:MICROBUILDER_FEATHERWING_HOLES"
 			(at 45.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 45.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 45.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12676,7 +13847,7 @@
 			(uuid "0386ff55-25a4-484a-b38f-b2696a62ed00")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "MS1")
 					(unit 1)
@@ -12688,13 +13859,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:SMA-142-0711-821/826")
 		(at 193.04 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "89b48c2e-b99d-430a-ba39-d7a87f5c6cec")
 		(property "Reference" "X1"
 			(at 190.5 32.258 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12704,39 +13879,47 @@
 		)
 		(property "Value" "SMA-142-0711-821/826"
 			(at 190.5 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826"
+		(property "Footprint" "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826_133"
 			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 193.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "G@4"
@@ -12755,7 +13938,7 @@
 			(uuid "08becccf-b756-412b-bcc6-cecda0b36ee0")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "X1")
 					(unit 1)
@@ -12767,22 +13950,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:supply1_371_GND")
 		(at 231.14 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9562bd19-e4b3-4586-9f0a-61965cef7bc8")
 		(property "Reference" "#GND2"
 			(at 231.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 228.6 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12792,36 +13981,42 @@
 		)
 		(property "Footprint" ""
 			(at 231.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 231.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 231.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9fb49606-a615-4a94-937d-7b07ed5eadbd")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#GND2")
 					(unit 1)
@@ -12833,13 +14028,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:PINHD-1X1")
 		(at 170.18 68.58 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "96a6bf42-00d3-4060-8499-841145dcb71c")
 		(property "Reference" "RX2"
 			(at 163.83 65.405 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12849,6 +14048,8 @@
 		)
 		(property "Value" "PINHD-1X1"
 			(at 163.83 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12858,36 +14059,42 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:1X01"
 			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1279c4c5-9973-42cb-a69c-7defe18290c2")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "RX2")
 					(unit 1)
@@ -12899,13 +14106,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:ZED-F9P_ZED-F9P")
 		(at 226.06 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9be7c74b-38ca-4b73-b5b6-6c061af87610")
 		(property "Reference" "U1"
 			(at 210.82 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12915,6 +14126,8 @@
 		)
 		(property "Value" "ZED-F9P_ZED-F9P"
 			(at 210.82 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12924,29 +14137,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:ZED-F9P_ZED-F9P"
 			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "57"
@@ -13193,7 +14412,7 @@
 			(uuid "750362ce-344a-42d1-9f5d-3ff20968f68d")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "U1")
 					(unit 1)
@@ -13205,13 +14424,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:VREG_SOT23-5")
 		(at 152.4 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9deacaff-5584-4887-9568-846b05cfa5dd")
 		(property "Reference" "U2"
 			(at 144.78 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13221,6 +14444,8 @@
 		)
 		(property "Value" "SPX3819-3.3"
 			(at 144.78 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13230,29 +14455,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOT23-5"
 			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -13271,7 +14502,7 @@
 			(uuid "1a82019f-550e-4683-be11-a3f6935b5e14")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "U2")
 					(unit 1)
@@ -13283,13 +14514,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:SOLDERJUMPER")
 		(at 45.72 170.18 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ec7c441-052d-4e74-b9a5-aedc7017e150")
 		(property "Reference" "UNK3.3V0"
 			(at 48.26 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13299,6 +14534,8 @@
 		)
 		(property "Value" "SOLDERJUMPER"
 			(at 48.26 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13308,29 +14545,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_ARROW_NOPASTE"
 			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13340,7 +14583,7 @@
 			(uuid "61899542-166a-41e7-9bb1-50864027a412")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "UNK3.3V0")
 					(unit 1)
@@ -13352,13 +14595,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR_0603_NOOUT")
 		(at 132.08 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f0cafda-2c69-49cb-9e3c-82e270aa71b9")
 		(property "Reference" "R6"
 			(at 134.62 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,6 +14614,8 @@
 		)
 		(property "Value" "100K"
 			(at 132.08 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13377,29 +14626,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0603-NO"
 			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13409,7 +14664,7 @@
 			(uuid "30109a89-2cf7-4bff-8cf5-c8b17c15d52e")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R6")
 					(unit 1)
@@ -13421,13 +14676,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:PINHD-1X1")
 		(at 170.18 58.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a440ed4a-d6c3-4f3c-b338-5f96f4ef6872")
 		(property "Reference" "UNK3V3"
 			(at 163.83 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13437,6 +14696,8 @@
 		)
 		(property "Value" "PINHD-1X1"
 			(at 163.83 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13446,36 +14707,42 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:1X01"
 			(at 170.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 170.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e7d62ef8-8be4-420f-9d2b-368e6c85f88b")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "UNK3V3")
 					(unit 1)
@@ -13487,13 +14754,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:TESTPOINTROUND1.5MM")
 		(at 266.7 116.84 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7a3ac60-5697-425f-adea-f1386c465eb4")
 		(property "Reference" "TP1"
 			(at 266.7 111.252 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13503,6 +14774,8 @@
 		)
 		(property "Value" "TESTPOINTROUND1.5MM"
 			(at 268.351 111.252 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13512,36 +14785,42 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:TESTPOINT_ROUND_1.5MM"
 			(at 266.7 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 266.7 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "P$1"
 			(uuid "f1febdcf-b8d3-4fd4-b78b-5f049591bda6")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "TP1")
 					(unit 1)
@@ -13553,13 +14832,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
 		(at 246.38 157.48 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba823a54-c32e-4608-ac09-d751aee1c505")
 		(property "Reference" "Z2"
 			(at 243.84 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13569,39 +14852,47 @@
 		)
 		(property "Value" "CG0603MLC-05E"
 			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
 			(at 246.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 246.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 246.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13611,7 +14902,7 @@
 			(uuid "bd1e9f5b-fd24-41cb-87f3-a14e52d5258f")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "Z2")
 					(unit 1)
@@ -13623,22 +14914,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V")
 		(at 180.34 50.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbe6c724-2a2f-48c6-90d4-1b3374f0e668")
 		(property "Reference" "#U$2"
 			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3V"
 			(at 178.816 49.784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13648,36 +14945,42 @@
 		)
 		(property "Footprint" ""
 			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "cf817028-c39f-4137-9beb-fe96cab24032")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$2")
 					(unit 1)
@@ -13689,22 +14992,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
 		(at 177.8 127 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbeb51aa-e880-4200-9a39-a26f361de438")
 		(property "Reference" "#U$5"
 			(at 177.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 176.276 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13714,36 +15023,42 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 177.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "85e4b7fc-926a-4722-a698-0d08badb5486")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$5")
 					(unit 1)
@@ -13755,13 +15070,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR0805_NOOUTLINE")
 		(at 231.14 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2695a04-45bd-465c-8626-67f67b07c1d2")
 		(property "Reference" "R2"
 			(at 231.14 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,6 +15089,8 @@
 		)
 		(property "Value" "10 ohm"
 			(at 231.14 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13780,29 +15101,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13812,7 +15139,7 @@
 			(uuid "1dab374a-fa95-43d5-9b6b-598af223fa8d")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R2")
 					(unit 1)
@@ -13824,22 +15151,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:VBUS")
 		(at 114.3 96.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "df2ecc8e-4bcc-4bbe-87e7-e3a9fc7af967")
 		(property "Reference" "#U$12"
 			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 112.776 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13849,36 +15182,42 @@
 		)
 		(property "Footprint" ""
 			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "2d58f8fd-a6e9-4011-a5ea-74ac393fed48")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$12")
 					(unit 1)
@@ -13890,22 +15229,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:VBAT")
 		(at 124.46 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dff982a5-dcc2-4347-856a-d8fd9ebd4796")
 		(property "Reference" "#U$21"
 			(at 124.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBAT"
 			(at 122.936 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13915,36 +15260,42 @@
 		)
 		(property "Footprint" ""
 			(at 124.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 124.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 124.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "7fc71bb0-fda3-486c-b863-e8b535f5814e")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$21")
 					(unit 1)
@@ -13956,13 +15307,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:BATTERY-6.8MM_SMD")
 		(at 129.54 175.26 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e079d1fa-db30-46b0-8127-d3f877fd62de")
 		(property "Reference" "B1"
 			(at 132.08 172.974 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13972,6 +15327,8 @@
 		)
 		(property "Value" "6.8MM_COIN_CELL"
 			(at 125.222 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13981,29 +15338,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:BATTCON-6.8MM"
 			(at 129.54 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 129.54 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 129.54 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "-"
@@ -14013,7 +15376,7 @@
 			(uuid "a700afc8-9695-467b-affc-fd7f9cde52a7")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "B1")
 					(unit 1)
@@ -14025,58 +15388,70 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:FIDUCIAL{dblquote}{dblquote}")
 		(at 208.28 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f092869c-dc32-4f3a-809a-81b5733aaba5")
 		(property "Reference" "FID1"
 			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
 			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM"
 			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "FID1")
 					(unit 1)
@@ -14088,22 +15463,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V")
 		(at 78.74 73.66 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5e6f230-b124-4f16-bef1-7bc71773e706")
 		(property "Reference" "#U$1"
 			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3V"
 			(at 77.216 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14113,36 +15494,42 @@
 		)
 		(property "Footprint" ""
 			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 78.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5aaa4a4e-409a-4047-9fd2-e0ebd0011fee")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$1")
 					(unit 1)
@@ -14154,13 +15541,17 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 167.64 116.84 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f850968f-0cba-4ec2-8632-73729fc22636")
 		(property "Reference" "C2"
 			(at 165.35 115.59 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14169,6 +15560,8 @@
 		)
 		(property "Value" "100nF"
 			(at 169.94 115.59 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,29 +15570,35 @@
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
 			(at 167.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 167.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 167.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14209,7 +15608,7 @@
 			(uuid "260c7409-001e-4ee9-ac61-df8236ad9a77")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "C2")
 					(unit 1)
@@ -14221,22 +15620,28 @@
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
 		(at 200.66 121.92 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f98f873b-6f41-4d59-8adf-375297a90fcb")
 		(property "Reference" "#U$6"
 			(at 200.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 199.136 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14246,36 +15651,42 @@
 		)
 		(property "Footprint" ""
 			(at 200.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 200.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 200.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "993ce43a-378b-4dce-a222-19444738e587")
 		)
 		(instances
-			(project ""
+			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "#U$6")
 					(unit 1)
