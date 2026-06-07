@@ -1,0 +1,21 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-06-06T09:21:17-06:00*%
+%TF.ProjectId,ZED-F9P GNSS FeatherWing,5a45442d-4639-4502-9047-4e5353204665,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-06-06 09:21:17*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,4.191000X2.667000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X171780000Y-108492500D03*
+X171780000Y-101507500D03*
+%TD*%
+M02*

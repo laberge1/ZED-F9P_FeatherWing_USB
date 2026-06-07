@@ -5,6 +5,1508 @@
 	(uuid "a924e344-78a2-4f8c-9e80-5f594fc0c031")
 	(paper "User" 298.45 217.322)
 	(lib_symbols
+		(symbol "Connector:Conn_01x12_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x12_Pin"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x12, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x12_Pin_1_1"
+				(rectangle
+					(start 0.8636 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy 0.8636 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 0.8636 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 0.8636 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 0.8636 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 12.7 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x16_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x16_Pin"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x16, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x16_Pin_1_1"
+				(rectangle
+					(start 0.8636 17.907)
+					(end 0 17.653)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 15.367)
+					(end 0 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -17.653)
+					(end 0 -17.907)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -20.193)
+					(end 0 -20.447)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 17.78) (xy 0.8636 17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 15.24) (xy 0.8636 15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy 0.8636 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 0.8636 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 0.8636 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 0.8636 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -17.78) (xy 0.8636 -17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -20.32) (xy 0.8636 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 17.78 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 15.24 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 12.7 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -17.78 180)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -20.32 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small_US"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "capacitor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TestVehicle1_v3-cache:Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue"
 			(pin_names
 				(offset 1.016)
@@ -803,721 +2305,6 @@
 							(font
 								(size 0 0)
 							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:A4L-LOC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FRAME"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "FRAME\n\nDIN A4, landscape with location and doc. field"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "A4L-LOC_1_0"
-				(polyline
-					(pts
-						(xy 0 179.07) (xy 260.35 179.07) (xy 260.35 0) (xy 0 0) (xy 0 179.07)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 134.3025) (xy 3.81 134.3025)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 89.535) (xy 3.81 89.535)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 44.7675) (xy 3.81 44.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 175.26) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.3917 179.07) (xy 43.3917 175.26)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.3917 3.81) (xy 43.3917 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 86.7833 179.07) (xy 86.7833 175.26)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 86.7833 3.81) (xy 86.7833 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 130.175 179.07) (xy 130.175 175.26)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 130.175 3.81) (xy 130.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 161.29 24.13) (xy 215.265 24.13)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 161.29 3.81) (xy 161.29 24.13)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 173.5667 179.07) (xy 173.5667 175.26)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 173.5667 3.81) (xy 173.5667 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 215.265 24.13) (xy 256.54 24.13)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 215.265 19.05) (xy 215.265 24.13)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 215.265 19.05) (xy 256.54 19.05)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 215.265 13.97) (xy 215.265 19.05)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 215.265 13.97) (xy 256.54 13.97)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 215.265 8.89) (xy 215.265 13.97)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 215.265 8.89) (xy 215.265 3.81)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 216.9583 179.07) (xy 216.9583 175.26)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 216.9583 3.81) (xy 216.9583 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 246.38 8.89) (xy 215.265 8.89)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 246.38 8.89) (xy 256.54 8.89)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 246.38 3.81) (xy 246.38 8.89)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 175.26) (xy 3.81 175.26)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 175.26) (xy 256.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 134.3025) (xy 260.35 134.3025)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 89.535) (xy 260.35 89.535)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 44.7675) (xy 260.35 44.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 19.05) (xy 256.54 24.13)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 13.97) (xy 256.54 19.05)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 8.89) (xy 256.54 13.97)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 3.81) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 256.54 3.81) (xy 256.54 8.89)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "A"
-					(at 1.905 156.6863 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "B"
-					(at 1.905 111.9188 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "C"
-					(at 1.905 67.1513 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "D"
-					(at 1.905 22.3838 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "1"
-					(at 21.6958 177.165 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "1"
-					(at 21.6958 1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "2"
-					(at 65.0875 177.165 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "2"
-					(at 65.0875 1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "3"
-					(at 108.4792 177.165 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "3"
-					(at 108.4792 1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "4"
-					(at 151.8708 177.165 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "4"
-					(at 151.8708 1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "5"
-					(at 195.2625 177.165 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "5"
-					(at 195.2625 1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "Sheet:"
-					(at 216.916 4.953 0)
-					(effects
-						(font
-							(size 2.54 2.159)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${PROJECTNAME}"
-					(at 217.17 15.24 0)
-					(effects
-						(font
-							(size 2.54 2.159)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${CURRENT_DATE}"
-					(at 217.17 10.16 0)
-					(effects
-						(font
-							(size 2.286 1.9431)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${#}/${##}"
-					(at 230.505 5.08 0)
-					(effects
-						(font
-							(size 2.54 2.159)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "6"
-					(at 238.6542 177.165 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "6"
-					(at 238.6542 1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "A"
-					(at 258.445 156.6863 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "B"
-					(at 258.445 111.9188 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "C"
-					(at 258.445 67.1513 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "D"
-					(at 258.445 22.3838 0)
-					(effects
-						(font
-							(size 2.54 2.286)
 						)
 					)
 				)
@@ -5166,267 +5953,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:SMA-142-0711-821/826"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "X"
-				(at -2.54 3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMA 50 Ohm End Launch Jack Receptacle - Round Contact\n\nJohnson Components\nSource: www.johnsoncomponents.com .. J502-ND.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMA-142-0711-821/826_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy -0.762 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.9022 -1.9838)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -0.9022 1.9838)
-					(end 0 0.508)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0.508) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.508) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -0.762 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "G@1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "G@2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "G@3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "G@4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ZED-F9P GNSS FeatherWing-eagle-import:SOLDERJUMPER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8331,7 +8857,7 @@
 	)
 	(text "A clone of the Adafruit Ultimate GPS FeatherWing but with the\nu-blox ZED-F9P\nOriginal design by Adafruit:\nhttps://www.adafruit.com/product/3133\nhttps://github.com/adafruit/Adafruit-Ultimate-GPS-FeatherWing-PCB\nPower circuit taken from the Adafruit AirLift FeatherWing:\nhttps://www.adafruit.com/product/4264\nhttps://github.com/adafruit/Adafruit-AirLift-FeatherWing-PCB\nZED-F9P design by SparkFun:\nhttps://www.sparkfun.com/products/15136\nhttps://cdn.sparkfun.com/assets/0/3/c/a/4/Qwiic_GPS-RTK2_-_ublox_ZED-F9P.zip"
 		(exclude_from_sim no)
-		(at 27.94 68.58 0)
+		(at 15.24 47.244 0)
 		(effects
 			(font
 				(size 1.9304 1.6408)
@@ -8412,7 +8938,7 @@
 		(uuid "66ce3e94-7520-449f-abe9-24bf4c7599e9")
 	)
 	(junction
-		(at 220.98 50.8)
+		(at 232.41 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7932b1e2-ca22-4412-b13d-9427600e692f")
@@ -8466,7 +8992,7 @@
 		(uuid "dafb73d1-8bd2-4b83-9935-5dafc5c425fc")
 	)
 	(junction
-		(at 220.98 35.56)
+		(at 232.41 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2b91513-671d-46b0-8765-1a1eab9d65cc")
@@ -8576,6 +9102,16 @@
 			(type solid)
 		)
 		(uuid "14403443-a1a9-4385-a203-79c48de447ab")
+	)
+	(wire
+		(pts
+			(xy 214.63 43.18) (xy 214.63 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "15608d1e-6b27-4b40-a1cf-39db0db93b75")
 	)
 	(wire
 		(pts
@@ -8739,7 +9275,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 35.56) (xy 243.84 35.56)
+			(xy 247.65 27.94) (xy 255.27 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8769,7 +9305,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 220.98 53.34)
+			(xy 232.41 43.18) (xy 232.41 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -8819,7 +9355,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 35.56) (xy 226.06 35.56)
+			(xy 232.41 27.94) (xy 237.49 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8836,6 +9372,16 @@
 			(type solid)
 		)
 		(uuid "473b506a-477d-4568-86af-30604717e6f0")
+	)
+	(wire
+		(pts
+			(xy 214.63 31.75) (xy 207.01 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b3d8ff9-62cb-445d-8cf0-e3cf4190e41e")
 	)
 	(wire
 		(pts
@@ -8899,16 +9445,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 38.1) (xy 203.2 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5baa82b3-b107-4317-bc78-d0b5e75bbc7b")
-	)
-	(wire
-		(pts
 			(xy 200.66 71.12) (xy 200.66 66.04)
 		)
 		(stroke
@@ -8919,7 +9455,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 35.56) (xy 208.28 35.56)
+			(xy 207.01 27.94) (xy 219.71 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8989,7 +9525,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 48.26) (xy 220.98 50.8)
+			(xy 232.41 40.64) (xy 232.41 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -9019,7 +9555,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 50.8) (xy 220.98 50.8)
+			(xy 214.63 43.18) (xy 232.41 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -9269,7 +9805,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 35.56) (xy 220.98 35.56)
+			(xy 224.79 27.94) (xy 232.41 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -9489,7 +10025,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 40.64) (xy 220.98 35.56)
+			(xy 232.41 33.02) (xy 232.41 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -9759,16 +10295,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 38.1) (xy 203.2 38.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fefceae2-a8bc-4c20-ab57-eb3983f68728")
-	)
-	(wire
-		(pts
 			(xy 35.56 157.48) (xy 50.8 157.48)
 		)
 		(stroke
@@ -9826,6 +10352,18 @@
 			(justify left bottom)
 		)
 		(uuid "0f46467e-1e79-464c-837d-2352bdf25876")
+		(property "Net Class" "SE50"
+			(at 190.754 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "VBACKUP"
 		(at 149.86 167.64 0)
@@ -9958,7 +10496,7 @@
 		(uuid "71cc2084-f180-4703-b209-a7fca8fa22fb")
 	)
 	(label "ANT"
-		(at 200.66 35.56 0)
+		(at 212.09 27.94 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10008,7 +10546,7 @@
 		(uuid "9d312eb6-75b0-433c-9a21-095b4c22078f")
 	)
 	(label "VCC_RF"
-		(at 241.3 35.56 0)
+		(at 252.73 27.94 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10093,7 +10631,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10120,7 +10658,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 83.82 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10143,6 +10681,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 83.82 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10189,7 +10738,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 114.3 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10234,6 +10783,50 @@
 				)
 			)
 		)
+		(property "Manu" "Stackpole Electronics Inc"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "RNCP0603FTD10K0"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "RNCP0603FTD10K0CT-ND"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f9c7d95-6373-41fb-8d86-db86f6a06c16")
 		)
@@ -10244,6 +10837,210 @@
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V")
+		(at 209.55 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a55b214-2815-43be-81bd-6ce19650e0cd")
+		(property "Reference" "#U$011"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 208.026 52.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d9628cd-b8cf-4813-af89-a46f1872b42d")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "#U$011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 209.55 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b646ae3-c4b6-4dba-822c-c9e5ee806abe")
+		(property "Reference" "C6"
+			(at 212.09 57.2769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small_US"
+			(at 212.09 59.8169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Samsung Electro-Mechanics"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CL05A104KA5NNNC"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1043-1-ND"
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 209.55 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3332662b-6a8a-41e1-a9a7-babe6639ac62")
+		)
+		(pin "2"
+			(uuid "e0f91c89-74c8-4993-8f36-6c2d44c95a0c")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10485,7 +11282,7 @@
 	)
 	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:FERRITE-0805NO")
-		(at 210.82 35.56 180)
+		(at 222.25 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10495,7 +11292,7 @@
 		(dnp no)
 		(uuid "104605fb-f9d0-485c-bbc6-59477de882a2")
 		(property "Reference" "L1"
-			(at 212.09 37.465 0)
+			(at 223.52 29.845 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10505,8 +11302,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "27nH"
-			(at 212.09 32.385 0)
+		(property "Value" "100nH"
+			(at 223.52 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10516,8 +11313,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
-			(at 210.82 35.56 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 222.25 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10528,7 +11325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 35.56 0)
+			(at 222.25 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10539,7 +11336,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 35.56 0)
+			(at 222.25 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "LQW18ANR10G8ZD"
+			(at 222.25 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "490-15766-1-ND"
+			(at 222.25 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 222.25 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,6 +11450,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "YAGEO"
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "RT0603FRE131KL"
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "13-RT0603FRE131KLCT-ND"
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10729,7 +11603,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10756,7 +11630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 200.66 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10779,6 +11653,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 200.66 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10800,7 +11685,7 @@
 	)
 	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 220.98 45.72 0)
+		(at 232.41 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10810,7 +11695,7 @@
 		(dnp no)
 		(uuid "21a85bb5-8817-40bb-a9e6-cfd08325885b")
 		(property "Reference" "C3"
-			(at 218.69 44.47 90)
+			(at 230.12 36.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10819,8 +11704,8 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 223.28 44.47 90)
+		(property "Value" "47pF"
+			(at 234.71 36.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10829,8 +11714,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
-			(at 220.98 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10841,7 +11726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 45.72 0)
+			(at 232.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10852,7 +11737,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 45.72 0)
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "GJM1555C1H470JB01D"
+			(at 232.41 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "490-14446-1-ND"
+			(at 232.41 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 232.41 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11100,6 +12018,61 @@
 				)
 			)
 		)
+		(property "Voltage" "10V"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Samsung Electro-Mechanics"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CL10B105KP8NFNC"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1945-1-ND"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9492c7d8-2ce5-4aef-b22e-2a4a1fbe0293")
 		)
@@ -11199,7 +12172,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11259,6 +12232,17 @@
 				)
 			)
 		)
+		(property "Digkey PN" ""
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da512917-7a73-4b89-8dc7-c4f637ccc0f6")
 		)
@@ -11266,6 +12250,84 @@
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "TX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_3.3V")
+		(at 195.58 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b84a25c-ef23-4e05-86aa-01fb45102f95")
+		(property "Reference" "#U$014"
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 194.056 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2b14949-857f-4319-be75-a27a50a22085")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "#U$014")
 					(unit 1)
 				)
 			)
@@ -11351,7 +12413,7 @@
 	)
 	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
-		(at 238.76 139.7 90)
+		(at 246.38 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11359,9 +12421,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2d8d8c91-b749-45b2-b09f-f6be3409e3bb")
-		(property "Reference" "Z3"
-			(at 236.22 142.24 0)
+		(uuid "2e60be13-6fa3-4577-9676-549aea5e8646")
+		(property "Reference" "Z2"
+			(at 243.84 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11372,7 +12434,7 @@
 			)
 		)
 		(property "Value" "CG0603MLC-05E"
-			(at 245.11 142.24 0)
+			(at 252.73 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11384,7 +12446,7 @@
 			)
 		)
 		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
-			(at 238.76 139.7 0)
+			(at 246.38 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11395,7 +12457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 139.7 0)
+			(at 246.38 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11406,7 +12468,51 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 139.7 0)
+			(at 246.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Bourns Inc."
+			(at 246.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CG0603MLC-05E"
+			(at 246.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "CG0603MLC-05ECT-ND"
+			(at 246.38 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 246.38 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11417,15 +12523,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ffa84488-685b-444e-86cf-c93c2da7a47f")
+			(uuid "f5ab4985-cddd-4ee6-b840-6b0fc6060c55")
 		)
 		(pin "1"
-			(uuid "b8e8e49a-7b33-4f4e-b30c-1fbbcf0a04ac")
+			(uuid "c978b4b0-fca3-4d33-82c8-c2c61f30540d")
 		)
 		(instances
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
-					(reference "Z3")
+					(reference "Z2")
 					(unit 1)
 				)
 			)
@@ -11437,7 +12543,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11464,7 +12570,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11487,6 +12593,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 86.36 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11518,7 +12635,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11568,6 +12685,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 66.04 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11738,6 +12866,50 @@
 				)
 			)
 		)
+		(property "Manu" "Taiwan Semiconductor Corporation"
+			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "BAT201M3 RRG"
+			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1801-BAT201M3RRGCT-ND"
+			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "285a5084-aae4-4f46-b3de-ab1abfd1bbf0")
 		)
@@ -11808,6 +12980,61 @@
 		)
 		(property "Description" ""
 			(at 177.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 177.8 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Samsung Electro-Mechanics"
+			(at 177.8 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CL21A106MQFNNNE"
+			(at 177.8 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1298-1-ND"
+			(at 177.8 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 177.8 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,6 +13125,50 @@
 				)
 			)
 		)
+		(property "Manu" "YAGEO"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "RT0603FRE131KL"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "13-RT0603FRE131KLCT-ND"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2781d382-f81f-439d-9968-6f96be7a3a67")
 		)
@@ -11969,6 +13240,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "YAGEO"
+			(at 129.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "RT0603FRE131KL"
+			(at 129.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "13-RT0603FRE131KLCT-ND"
+			(at 129.54 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 129.54 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12078,7 +13393,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12105,7 +13420,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 66.04 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -12128,6 +13443,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 66.04 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -12209,6 +13535,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Amphenol ICC (FCI)"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "10103594-0001LF"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "609-4050-1-ND"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 218.44 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12327,6 +13697,50 @@
 				)
 			)
 		)
+		(property "Manu" "YAGEO"
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "RT0603FRE131KL"
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "13-RT0603FRE131KLCT-ND"
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "79db10eb-5f6a-4ba3-9c55-7cef7cd315cf")
 		)
@@ -12343,13 +13757,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x12_Pin")
+		(at 78.74 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c305b78-783a-46d1-ae23-82c2a18e8aee")
+		(property "Reference" "J3"
+			(at 80.01 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x12_Pin"
+			(at 80.01 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x12, script generated"
+			(at 78.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2223-SSK01-MPH-254-A12-ND"
+			(at 78.74 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 78.74 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "00752b63-59bd-4b81-8656-27b56cbc8475")
+		)
+		(pin "11"
+			(uuid "a90eacd8-a096-4425-80d2-7b14461776d7")
+		)
+		(pin "12"
+			(uuid "eb2f3c09-79ba-4709-8a5b-4ccd1e6d7ab5")
+		)
+		(pin "4"
+			(uuid "92733a70-8345-434d-9957-0f5503e13f40")
+		)
+		(pin "7"
+			(uuid "eb84bce5-186f-4e76-82c7-acacc1aa58fe")
+		)
+		(pin "1"
+			(uuid "b356891a-f7f7-4229-9452-02d244e1f41a")
+		)
+		(pin "5"
+			(uuid "36a1ac39-3590-4bbf-ab4b-2d4eb26e0f35")
+		)
+		(pin "2"
+			(uuid "27a381d2-90f1-4d70-83aa-6ba6318a0681")
+		)
+		(pin "6"
+			(uuid "7cd8f22b-9faa-4aae-b6a4-3f263e3af3f7")
+		)
+		(pin "3"
+			(uuid "0170e15d-0ee4-4113-a7e5-2e9759283ee4")
+		)
+		(pin "8"
+			(uuid "30a608dd-1430-49cf-92e4-56a3a4e9f15f")
+		)
+		(pin "9"
+			(uuid "96cb8e3f-3bd6-4f60-bd08-e0cee0b69cf7")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:SOLDERJUMPERCLOSED")
 		(at 88.9 104.14 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12376,7 +13922,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 88.9 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12399,6 +13945,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 88.9 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12419,88 +13976,6 @@
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "SDA0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
-		(at 246.38 139.7 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c9d1a2d-a68e-4467-bbe0-4ad6f8fcea17")
-		(property "Reference" "Z4"
-			(at 243.84 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CG0603MLC-05E"
-			(at 252.73 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
-			(at 246.38 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5526013-2c2c-4db6-8bc4-cf17627b08d5")
-		)
-		(pin "1"
-			(uuid "ffca91c4-8fea-4d75-a25d-d0524fa43c3f")
-		)
-		(instances
-			(project "ZED-F9P GNSS FeatherWing"
-				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
-					(reference "Z4")
 					(unit 1)
 				)
 			)
@@ -12563,6 +14038,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "onsemi"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "FDN340P"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "FDN340PCT-ND"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12735,6 +14254,50 @@
 				)
 			)
 		)
+		(property "Manu" "Taiwan Semiconductor Corporation"
+			(at 129.54 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "BAT201M3 RRG"
+			(at 129.54 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1801-BAT201M3RRGCT-ND"
+			(at 129.54 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 129.54 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "69d4197f-90df-499e-a71b-08934ac86dcd")
 		)
@@ -12751,83 +14314,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:A4L-LOC")
-		(at 17.78 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f6a6ac4-6952-44cc-bd4d-3c7a50048b27")
-		(property "Reference" "#FRAME1"
-			(at 17.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "A4L-LOC"
-			(at 17.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ZED-F9P GNSS FeatherWing"
-				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
-					(reference "#FRAME1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
-		(at 220.98 55.88 0)
+		(at 232.41 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12837,7 +14325,7 @@
 		(dnp no)
 		(uuid "6122047f-fd73-4efb-a8e9-5d3b732b4164")
 		(property "Reference" "#U$19"
-			(at 220.98 55.88 0)
+			(at 232.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12848,7 +14336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.456 58.42 0)
+			(at 230.886 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12859,7 +14347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 55.88 0)
+			(at 232.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12870,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 55.88 0)
+			(at 232.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12881,7 +14369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 55.88 0)
+			(at 232.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12909,7 +14397,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12969,6 +14457,17 @@
 				)
 			)
 		)
+		(property "Digkey PN" ""
+			(at 170.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23cdd5b3-0908-4b35-a2fb-09eeafbaada6")
 		)
@@ -12987,7 +14486,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13037,6 +14536,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 170.18 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13144,7 +14654,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13171,7 +14681,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_CLOSEDWIRE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 86.36 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13194,6 +14704,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 86.36 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 86.36 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13221,7 +14742,8 @@
 	)
 	(symbol
 		(lib_id "TestVehicle1_v3-cache:Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue")
-		(at 187.96 27.94 0)
+		(at 196.85 30.48 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13229,10 +14751,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7725bed3-f5f2-450c-b45f-488073e57f4c")
 		(property "Reference" "J1"
-			(at 194.31 26.0349 0)
+			(at 190.5 28.5749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13242,8 +14763,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Coupler_v2_Coupler_v2-rescue_SMA-Coupler_v1-rescue"
-			(at 194.31 28.5749 0)
+		(property "Value" "EdgeMount_SMA"
+			(at 190.5 31.1149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13253,8 +14774,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Coupler_v1:SMA_Molex_732511150_v3"
-			(at 187.96 27.94 0)
+		(property "Footprint" "Coupler_v1:SMA_Molex_0732512120"
+			(at 196.85 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13265,7 +14786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 27.94 0)
+			(at 196.85 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13276,7 +14797,51 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 27.94 0)
+			(at 196.85 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "0732512120"
+			(at 196.85 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "WM5536-ND"
+			(at 196.85 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Molex"
+			(at 196.85 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 196.85 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13296,6 +14861,258 @@
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 195.58 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7744007b-bee4-44d3-9522-3a1748e5ec92")
+		(property "Reference" "C5"
+			(at 198.12 106.8069 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small_US"
+			(at 198.12 109.3469 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1043-1-ND"
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Samsung Electro-Mechanics"
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CL05A104KA5NNNC"
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bd40f14-0585-4ad3-a3b4-cb9c074a8d1e")
+		)
+		(pin "2"
+			(uuid "1084695a-d6b4-41a3-abbd-fe8b3c3c0481")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
+		(at 246.38 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79d4bc1b-1952-4145-8071-8699344be915")
+		(property "Reference" "Z4"
+			(at 243.84 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CG0603MLC-05E"
+			(at 252.73 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Bourns Inc."
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CG0603MLC-05E"
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "CG0603MLC-05ECT-ND"
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1e56f71-cd1e-4da9-9e3f-5f1307b734ff")
+		)
+		(pin "1"
+			(uuid "2747c7a8-1fdd-4a9e-884a-de26167000e3")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "Z4")
 					(unit 1)
 				)
 			)
@@ -13463,7 +15280,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13513,6 +15330,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 170.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13602,6 +15430,50 @@
 				)
 			)
 		)
+		(property "Manu" "Bourns Inc."
+			(at 238.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CG0603MLC-05E"
+			(at 238.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "CG0603MLC-05ECT-ND"
+			(at 238.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 238.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c78cd6ac-bc61-4d7f-94c9-e9e0bf45ae6b")
 		)
@@ -13681,6 +15553,50 @@
 				)
 			)
 		)
+		(property "Manu" "Würth Elektronik"
+			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "150080RS75000"
+			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "732-4984-1-ND"
+			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 261.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "f6e9aab7-5d50-4e43-ad8d-d13e3977e146")
 		)
@@ -13702,7 +15618,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13752,6 +15668,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 45.72 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13856,97 +15783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:SMA-142-0711-821/826")
-		(at 193.04 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89b48c2e-b99d-430a-ba39-d7a87f5c6cec")
-		(property "Reference" "X1"
-			(at 190.5 32.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SMA-142-0711-821/826"
-			(at 190.5 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:J502-ND-142-0711-821_826_133"
-			(at 193.04 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "G@4"
-			(uuid "d3e1a9b7-99dd-46d6-9066-ec2f6f225fb7")
-		)
-		(pin "G@3"
-			(uuid "d9322c2e-6638-4ac2-af4d-b9b8b9e147d2")
-		)
-		(pin "G@1"
-			(uuid "926ce382-ba92-4954-9fb8-0abf8bd7dbb3")
-		)
-		(pin "G@2"
-			(uuid "28d6ad09-b696-4ef9-85a2-812e679fcd50")
-		)
-		(pin "1"
-			(uuid "08becccf-b756-412b-bcc6-cecda0b36ee0")
-		)
-		(instances
-			(project "ZED-F9P GNSS FeatherWing"
-				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:supply1_371_GND")
 		(at 231.14 167.64 0)
 		(unit 1)
@@ -14030,7 +15866,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14090,6 +15926,17 @@
 				)
 			)
 		)
+		(property "Digkey PN" ""
+			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1279c4c5-9973-42cb-a69c-7defe18290c2")
 		)
@@ -14097,6 +15944,150 @@
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "RX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x16_Pin")
+		(at 38.1 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96f5dbd1-52f2-400d-984c-7b28e0740aea")
+		(property "Reference" "J2"
+			(at 39.37 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x16_Pin"
+			(at 39.37 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x16, script generated"
+			(at 38.1 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2223-SSK01-MPH-254-A16-ND"
+			(at 38.1 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 38.1 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "ab700afa-5fda-45ef-8197-d828ec4c6a38")
+		)
+		(pin "7"
+			(uuid "d93daf83-feb0-4d45-93b6-d0c9555e7059")
+		)
+		(pin "8"
+			(uuid "6d6a56ec-3b22-4bed-8e7f-ee9c9da06037")
+		)
+		(pin "2"
+			(uuid "a3dad42c-53fd-41be-8635-f6ada6bc2b4e")
+		)
+		(pin "3"
+			(uuid "d164e122-47af-4768-bfc4-4b3e872153dd")
+		)
+		(pin "10"
+			(uuid "b0c09081-3b23-4389-9061-251f77955d04")
+		)
+		(pin "13"
+			(uuid "005790e4-872d-4141-81f0-ad7097c2963d")
+		)
+		(pin "14"
+			(uuid "300da4b2-b62c-49ee-add4-10ac1458bc08")
+		)
+		(pin "16"
+			(uuid "2cb4eb17-c929-482f-bc17-5b77ad402129")
+		)
+		(pin "5"
+			(uuid "cc129408-f612-4cc5-b3ba-e11c8c7f64bd")
+		)
+		(pin "9"
+			(uuid "647a6a03-b36b-4aa8-b1e5-0afc7757ff91")
+		)
+		(pin "1"
+			(uuid "597fe9e3-8167-4042-b160-a8f98d9a49f2")
+		)
+		(pin "6"
+			(uuid "203ecd57-e977-4827-8dfd-1c904707062b")
+		)
+		(pin "12"
+			(uuid "18d683fd-36eb-4ac7-8f80-88eb7877111a")
+		)
+		(pin "4"
+			(uuid "46598872-ae5c-417f-b2c8-d517ed1574b7")
+		)
+		(pin "15"
+			(uuid "d84716ca-719b-4093-8441-7eeaf826fd94")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14124,7 +16115,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ZED-F9P_ZED-F9P"
+		(property "Value" "ZED-F9P-15B"
 			(at 210.82 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14158,6 +16149,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "u-blox"
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "ZED-F9P-15B"
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "672-ZED-F9P-15BCT-ND"
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 226.06 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14486,6 +16521,50 @@
 				)
 			)
 		)
+		(property "Manu" "MaxLinear, Inc."
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "SPX3819M5-L-3-3/TR"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1016-1873-1-ND"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0d05aa60-1642-43df-8736-36abf909111e")
 		)
@@ -14516,7 +16595,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14543,7 +16622,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 45.72 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14566,6 +16645,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
 			(at 45.72 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14612,7 +16702,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 132.08 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14657,6 +16747,50 @@
 				)
 			)
 		)
+		(property "Manu" "Stackpole Electronics Inc"
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "RNCP0603FTD10K0"
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "RNCP0603FTD10K0CT-ND"
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7c0ace7-2323-43a7-b951-8036af6fc981")
 		)
@@ -14673,12 +16807,98 @@
 		)
 	)
 	(symbol
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:FIDUCIAL{dblquote}{dblquote}")
+		(at 194.31 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0e48fcc-482c-4bb4-b125-ad728b5f46d6")
+		(property "Reference" "FID3"
+			(at 194.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
+			(at 194.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 194.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 194.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:PINHD-1X1")
 		(at 170.18 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14738,6 +16958,17 @@
 				)
 			)
 		)
+		(property "Digkey PN" ""
+			(at 170.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7d62ef8-8be4-420f-9d2b-368e6c85f88b")
 		)
@@ -14756,7 +16987,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14816,6 +17047,17 @@
 				)
 			)
 		)
+		(property "Digkey PN" ""
+			(at 266.7 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "P$1"
 			(uuid "f1febdcf-b8d3-4fd4-b78b-5f049591bda6")
 		)
@@ -14823,88 +17065,6 @@
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
-		(at 246.38 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba823a54-c32e-4608-ac09-d751aee1c505")
-		(property "Reference" "Z2"
-			(at 243.84 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CG0603MLC-05E"
-			(at 252.73 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
-			(at 246.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "047dc402-7a10-4659-825a-69864e63f865")
-		)
-		(pin "1"
-			(uuid "bd1e9f5b-fd24-41cb-87f3-a14e52d5258f")
-		)
-		(instances
-			(project "ZED-F9P GNSS FeatherWing"
-				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
-					(reference "Z2")
 					(unit 1)
 				)
 			)
@@ -15067,8 +17227,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR0805_NOOUTLINE")
-		(at 231.14 35.56 0)
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
+		(at 209.55 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15076,9 +17236,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d2695a04-45bd-465c-8626-67f67b07c1d2")
-		(property "Reference" "R2"
-			(at 231.14 33.02 0)
+		(uuid "bf0656c1-cb57-4a78-b40f-3ee2fec4509b")
+		(property "Reference" "#U$010"
+			(at 209.55 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15087,20 +17248,19 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
-			(at 231.14 35.56 0)
+		(property "Value" "GND"
+			(at 208.026 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
+					(size 1.27 1.0795)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:0805-NO"
-			(at 231.14 35.56 0)
+		(property "Footprint" ""
+			(at 209.55 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15111,7 +17271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 35.56 0)
+			(at 209.55 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15122,7 +17282,129 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 35.56 0)
+			(at 209.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19cd70b8-3a5c-40e3-b708-479e295ce1d8")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "#U$010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:RESISTOR0805_NOOUTLINE")
+		(at 242.57 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2695a04-45bd-465c-8626-67f67b07c1d2")
+		(property "Reference" "R2"
+			(at 242.57 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 ohm"
+			(at 242.57 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CR0402-JW-100GLF"
+			(at 242.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "CR0402-JW-100GLFCT-ND"
+			(at 242.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Bourns Inc."
+			(at 242.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 242.57 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15369,6 +17651,50 @@
 				)
 			)
 		)
+		(property "Manu" "Seiko Instruments"
+			(at 129.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "Seiko Instruments"
+			(at 129.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "728-1057-ND"
+			(at 129.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 129.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "-"
 			(uuid "2fd253e7-ecf1-46f7-97b3-8b0ce57109d2")
 		)
@@ -15385,12 +17711,90 @@
 		)
 	)
 	(symbol
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:microbuilder_GND")
+		(at 195.58 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9796f2b-361b-421e-ac43-9b9b669beaa9")
+		(property "Reference" "#U$09"
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.056 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eec552e5-b24f-4e36-8244-f42faf9ff393")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "#U$09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:FIDUCIAL{dblquote}{dblquote}")
 		(at 208.28 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15417,7 +17821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZED-F9P GNSS FeatherWing:FIDUCIAL_1MM"
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
 			(at 208.28 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15450,10 +17854,147 @@
 				)
 			)
 		)
+		(property "Digkey PN" ""
+			(at 208.28 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ZED-F9P GNSS FeatherWing"
 				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZED-F9P GNSS FeatherWing-eagle-import:0010_BRNCG0603MLC-05E")
+		(at 238.76 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f55a10c3-c4a2-4682-bce6-561b65ccff7c")
+		(property "Reference" "Z3"
+			(at 236.22 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CG0603MLC-05E"
+			(at 245.11 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ZED-F9P GNSS FeatherWing:CT_CN0603"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Bourns Inc."
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CG0603MLC-05E"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "CG0603MLC-05ECT-ND"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "24589a84-a640-4a62-b47f-f9d8b5f24b1c")
+		)
+		(pin "1"
+			(uuid "667fc713-449e-4787-857b-7e1a772f9fc6")
+		)
+		(instances
+			(project "ZED-F9P GNSS FeatherWing"
+				(path "/a924e344-78a2-4f8c-9e80-5f594fc0c031"
+					(reference "Z3")
 					(unit 1)
 				)
 			)
@@ -15592,6 +18133,61 @@
 		)
 		(property "Description" ""
 			(at 167.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 167.64 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu" "Samsung Electro-Mechanics"
+			(at 167.64 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manu PN" "CL21B104KACNFNC"
+			(at 167.64 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-2442-1-ND"
+			(at 167.64 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digkey PN" ""
+			(at 167.64 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
